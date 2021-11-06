@@ -35,7 +35,6 @@ namespace Human_FitnessProject
             this.squareLogo2 = new System.Windows.Forms.PictureBox();
             this.welcomeLabel = new System.Windows.Forms.Label();
             this.startLabel = new System.Windows.Forms.Label();
-            this.answer1 = new System.Windows.Forms.TextBox();
             this.enterAnswer = new System.Windows.Forms.Label();
             this.bcpicture = new System.Windows.Forms.PictureBox();
             this.sameGuy = new System.Windows.Forms.Label();
@@ -43,6 +42,8 @@ namespace Human_FitnessProject
             this.difMan = new System.Windows.Forms.Label();
             this.couldbeYou = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.yesButton1 = new System.Windows.Forms.RadioButton();
+            this.noButton = new System.Windows.Forms.RadioButton();
             ((System.ComponentModel.ISupportInitialize)(this.squareLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.longLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.squareLogo2)).BeginInit();
@@ -85,7 +86,7 @@ namespace Human_FitnessProject
             this.welcomeLabel.AutoSize = true;
             this.welcomeLabel.Font = new System.Drawing.Font("Monotype Corsiva", 14F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.welcomeLabel.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.welcomeLabel.Location = new System.Drawing.Point(479, 133);
+            this.welcomeLabel.Location = new System.Drawing.Point(501, 37);
             this.welcomeLabel.Name = "welcomeLabel";
             this.welcomeLabel.Size = new System.Drawing.Size(606, 51);
             this.welcomeLabel.TabIndex = 3;
@@ -96,26 +97,18 @@ namespace Human_FitnessProject
             this.startLabel.AutoSize = true;
             this.startLabel.Font = new System.Drawing.Font("Monotype Corsiva", 14F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.startLabel.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.startLabel.Location = new System.Drawing.Point(440, 184);
+            this.startLabel.Location = new System.Drawing.Point(473, 88);
             this.startLabel.Name = "startLabel";
             this.startLabel.Size = new System.Drawing.Size(672, 51);
             this.startLabel.TabIndex = 4;
             this.startLabel.Text = "Are you ready to begin your fitness Journey?";
-            // 
-            // answer1
-            // 
-            this.answer1.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.answer1.Location = new System.Drawing.Point(685, 299);
-            this.answer1.Name = "answer1";
-            this.answer1.Size = new System.Drawing.Size(268, 35);
-            this.answer1.TabIndex = 5;
             // 
             // enterAnswer
             // 
             this.enterAnswer.AutoSize = true;
             this.enterAnswer.Font = new System.Drawing.Font("Monotype Corsiva", 14F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.enterAnswer.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.enterAnswer.Location = new System.Drawing.Point(229, 235);
+            this.enterAnswer.Location = new System.Drawing.Point(273, 139);
             this.enterAnswer.Name = "enterAnswer";
             this.enterAnswer.Size = new System.Drawing.Size(1045, 51);
             this.enterAnswer.TabIndex = 6;
@@ -185,12 +178,49 @@ namespace Human_FitnessProject
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
             // 
+            // yesButton1
+            // 
+            this.yesButton1.AutoSize = true;
+            this.yesButton1.BackColor = System.Drawing.Color.Black;
+            this.yesButton1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Blue;
+            this.yesButton1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
+            this.yesButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
+            this.yesButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.yesButton1.Font = new System.Drawing.Font("Monotype Corsiva", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.yesButton1.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.yesButton1.Location = new System.Drawing.Point(251, 204);
+            this.yesButton1.Name = "yesButton1";
+            this.yesButton1.Size = new System.Drawing.Size(1113, 55);
+            this.yesButton1.TabIndex = 13;
+            this.yesButton1.Text = "Push here to begin your fitness journey and forever change your life!";
+            this.yesButton1.UseVisualStyleBackColor = false;
+            this.yesButton1.CheckedChanged += new System.EventHandler(this.yesButton1_CheckedChanged);
+            // 
+            // noButton
+            // 
+            this.noButton.AutoSize = true;
+            this.noButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
+            this.noButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
+            this.noButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
+            this.noButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.noButton.Font = new System.Drawing.Font("Segoe Print", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.noButton.ForeColor = System.Drawing.Color.Maroon;
+            this.noButton.Location = new System.Drawing.Point(510, 265);
+            this.noButton.Name = "noButton";
+            this.noButton.Size = new System.Drawing.Size(543, 56);
+            this.noButton.TabIndex = 14;
+            this.noButton.Text = "Push here to remain the same...";
+            this.noButton.UseVisualStyleBackColor = true;
+            this.noButton.CheckedChanged += new System.EventHandler(this.noButton_CheckedChanged);
+            // 
             // welcomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1582, 728);
+            this.Controls.Add(this.noButton);
+            this.Controls.Add(this.yesButton1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.couldbeYou);
             this.Controls.Add(this.difMan);
@@ -198,7 +228,6 @@ namespace Human_FitnessProject
             this.Controls.Add(this.sameGuy);
             this.Controls.Add(this.bcpicture);
             this.Controls.Add(this.enterAnswer);
-            this.Controls.Add(this.answer1);
             this.Controls.Add(this.startLabel);
             this.Controls.Add(this.welcomeLabel);
             this.Controls.Add(this.squareLogo2);
@@ -208,7 +237,7 @@ namespace Human_FitnessProject
             this.MaximumSize = new System.Drawing.Size(1614, 807);
             this.Name = "welcomePage";
             this.Text = "Welcome Page";
-            this.TransparencyKey = System.Drawing.Color.Transparent;
+            this.TransparencyKey = System.Drawing.Color.OldLace;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.welcomePage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.squareLogo)).EndInit();
@@ -228,7 +257,6 @@ namespace Human_FitnessProject
         private System.Windows.Forms.PictureBox squareLogo2;
         private System.Windows.Forms.Label welcomeLabel;
         private System.Windows.Forms.Label startLabel;
-        private System.Windows.Forms.TextBox answer1;
         private System.Windows.Forms.Label enterAnswer;
         private System.Windows.Forms.PictureBox bcpicture;
         private System.Windows.Forms.Label sameGuy;
@@ -236,6 +264,8 @@ namespace Human_FitnessProject
         private System.Windows.Forms.Label difMan;
         private System.Windows.Forms.Label couldbeYou;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.RadioButton yesButton1;
+        private System.Windows.Forms.RadioButton noButton;
     }
 }
 
