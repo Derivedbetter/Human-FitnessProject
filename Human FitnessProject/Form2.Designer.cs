@@ -30,11 +30,7 @@ namespace Human_FitnessProject
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(intake));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.backbutton = new System.Windows.Forms.Button();
-            this.logo2 = new System.Windows.Forms.PictureBox();
-            this.logo3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.initialInfo = new System.Windows.Forms.Label();
             this.physicalInfo = new System.Windows.Forms.Label();
             this.initialinfo2 = new System.Windows.Forms.Label();
@@ -55,23 +51,17 @@ namespace Human_FitnessProject
             this.clientGender = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.nextButton = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logo2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logo3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.logo3 = new System.Windows.Forms.PictureBox();
+            this.logo2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.initinfoPanel.SuspendLayout();
             this.attribPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logo3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logo2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(522, 143);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(553, 435);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
             // 
             // backbutton
             // 
@@ -85,36 +75,6 @@ namespace Human_FitnessProject
             this.backbutton.Text = "Take me Back to where I started...";
             this.backbutton.UseVisualStyleBackColor = false;
             this.backbutton.Click += new System.EventHandler(this.backbutton_Click);
-            // 
-            // logo2
-            // 
-            this.logo2.Image = ((System.Drawing.Image)(resources.GetObject("logo2.Image")));
-            this.logo2.Location = new System.Drawing.Point(12, 12);
-            this.logo2.Name = "logo2";
-            this.logo2.Size = new System.Drawing.Size(172, 172);
-            this.logo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.logo2.TabIndex = 2;
-            this.logo2.TabStop = false;
-            // 
-            // logo3
-            // 
-            this.logo3.Image = ((System.Drawing.Image)(resources.GetObject("logo3.Image")));
-            this.logo3.Location = new System.Drawing.Point(1398, 12);
-            this.logo3.Name = "logo3";
-            this.logo3.Size = new System.Drawing.Size(172, 172);
-            this.logo3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.logo3.TabIndex = 3;
-            this.logo3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Human_FitnessProject.Properties.Resources.color_logo___with_background;
-            this.pictureBox2.Location = new System.Drawing.Point(524, 584);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(551, 132);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
             // 
             // initialInfo
             // 
@@ -313,6 +273,46 @@ namespace Human_FitnessProject
             this.nextButton.Text = "I\'m Done Here...Let\'s Go!";
             this.nextButton.UseVisualStyleBackColor = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Human_FitnessProject.Properties.Resources.color_logo___with_background;
+            this.pictureBox2.Location = new System.Drawing.Point(524, 584);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(551, 132);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
+            // 
+            // logo3
+            // 
+            this.logo3.Image = ((System.Drawing.Image)(resources.GetObject("logo3.Image")));
+            this.logo3.Location = new System.Drawing.Point(1398, 12);
+            this.logo3.Name = "logo3";
+            this.logo3.Size = new System.Drawing.Size(172, 172);
+            this.logo3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logo3.TabIndex = 3;
+            this.logo3.TabStop = false;
+            // 
+            // logo2
+            // 
+            this.logo2.Image = global::Human_FitnessProject.Properties.Resources.Color_logo_with_background;
+            this.logo2.Location = new System.Drawing.Point(12, 12);
+            this.logo2.Name = "logo2";
+            this.logo2.Size = new System.Drawing.Size(172, 172);
+            this.logo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logo2.TabIndex = 2;
+            this.logo2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Human_FitnessProject.Properties.Resources.beach_workout;
+            this.pictureBox1.Location = new System.Drawing.Point(522, 143);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(553, 435);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // intake
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
@@ -339,14 +339,14 @@ namespace Human_FitnessProject
             this.Text = "WE ARE SO GLAD YOU MADE IT HERE!";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.intake_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logo2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.logo3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.initinfoPanel.ResumeLayout(false);
             this.initinfoPanel.PerformLayout();
             this.attribPanel.ResumeLayout(false);
             this.attribPanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logo3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logo2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

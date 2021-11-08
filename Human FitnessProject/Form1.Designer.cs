@@ -30,56 +30,26 @@ namespace Human_FitnessProject
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(welcomePage));
-            this.squareLogo = new System.Windows.Forms.PictureBox();
-            this.longLogo = new System.Windows.Forms.PictureBox();
-            this.squareLogo2 = new System.Windows.Forms.PictureBox();
             this.welcomeLabel = new System.Windows.Forms.Label();
             this.startLabel = new System.Windows.Forms.Label();
             this.enterAnswer = new System.Windows.Forms.Label();
-            this.bcpicture = new System.Windows.Forms.PictureBox();
             this.sameGuy = new System.Windows.Forms.Label();
             this.sameShirt = new System.Windows.Forms.Label();
             this.difMan = new System.Windows.Forms.Label();
             this.couldbeYou = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.yesButton1 = new System.Windows.Forms.RadioButton();
             this.noButton = new System.Windows.Forms.RadioButton();
-            ((System.ComponentModel.ISupportInitialize)(this.squareLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.longLogo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.squareLogo2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bcpicture)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.bcpicture = new System.Windows.Forms.PictureBox();
+            this.squareLogo2 = new System.Windows.Forms.PictureBox();
+            this.longLogo = new System.Windows.Forms.PictureBox();
+            this.squareLogo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bcpicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.squareLogo2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.longLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.squareLogo)).BeginInit();
             this.SuspendLayout();
-            // 
-            // squareLogo
-            // 
-            this.squareLogo.Image = ((System.Drawing.Image)(resources.GetObject("squareLogo.Image")));
-            this.squareLogo.Location = new System.Drawing.Point(23, 12);
-            this.squareLogo.Name = "squareLogo";
-            this.squareLogo.Size = new System.Drawing.Size(172, 172);
-            this.squareLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.squareLogo.TabIndex = 0;
-            this.squareLogo.TabStop = false;
-            // 
-            // longLogo
-            // 
-            this.longLogo.Image = ((System.Drawing.Image)(resources.GetObject("longLogo.Image")));
-            this.longLogo.Location = new System.Drawing.Point(561, 630);
-            this.longLogo.Name = "longLogo";
-            this.longLogo.Size = new System.Drawing.Size(524, 111);
-            this.longLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.longLogo.TabIndex = 1;
-            this.longLogo.TabStop = false;
-            // 
-            // squareLogo2
-            // 
-            this.squareLogo2.Image = ((System.Drawing.Image)(resources.GetObject("squareLogo2.Image")));
-            this.squareLogo2.Location = new System.Drawing.Point(1402, 12);
-            this.squareLogo2.Name = "squareLogo2";
-            this.squareLogo2.Size = new System.Drawing.Size(172, 172);
-            this.squareLogo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.squareLogo2.TabIndex = 2;
-            this.squareLogo2.TabStop = false;
             // 
             // welcomeLabel
             // 
@@ -110,19 +80,9 @@ namespace Human_FitnessProject
             this.enterAnswer.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.enterAnswer.Location = new System.Drawing.Point(273, 139);
             this.enterAnswer.Name = "enterAnswer";
-            this.enterAnswer.Size = new System.Drawing.Size(1045, 51);
+            this.enterAnswer.Size = new System.Drawing.Size(1078, 51);
             this.enterAnswer.TabIndex = 6;
-            this.enterAnswer.Text = "Type Yes to maximize your fitness potential or No to remain the same.";
-            // 
-            // bcpicture
-            // 
-            this.bcpicture.Image = ((System.Drawing.Image)(resources.GetObject("bcpicture.Image")));
-            this.bcpicture.Location = new System.Drawing.Point(12, 392);
-            this.bcpicture.Name = "bcpicture";
-            this.bcpicture.Size = new System.Drawing.Size(372, 372);
-            this.bcpicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.bcpicture.TabIndex = 7;
-            this.bcpicture.TabStop = false;
+            this.enterAnswer.Text = "The choice is yours... maximize your fitness potential or remain the same.";
             // 
             // sameGuy
             // 
@@ -168,16 +128,6 @@ namespace Human_FitnessProject
             this.couldbeYou.TabIndex = 11;
             this.couldbeYou.Text = "It\'s Your Turn Now!";
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1202, 392);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(372, 372);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 12;
-            this.pictureBox1.TabStop = false;
-            // 
             // yesButton1
             // 
             this.yesButton1.AutoSize = true;
@@ -213,6 +163,56 @@ namespace Human_FitnessProject
             this.noButton.UseVisualStyleBackColor = true;
             this.noButton.CheckedChanged += new System.EventHandler(this.noButton_CheckedChanged);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Human_FitnessProject.Properties.Resources.Cropped_IG1;
+            this.pictureBox1.Location = new System.Drawing.Point(1202, 392);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(372, 372);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
+            // bcpicture
+            // 
+            this.bcpicture.Image = global::Human_FitnessProject.Properties.Resources.BC;
+            this.bcpicture.Location = new System.Drawing.Point(12, 392);
+            this.bcpicture.Name = "bcpicture";
+            this.bcpicture.Size = new System.Drawing.Size(372, 372);
+            this.bcpicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.bcpicture.TabIndex = 7;
+            this.bcpicture.TabStop = false;
+            // 
+            // squareLogo2
+            // 
+            this.squareLogo2.Image = global::Human_FitnessProject.Properties.Resources.Color_logo_with_background;
+            this.squareLogo2.Location = new System.Drawing.Point(1402, 12);
+            this.squareLogo2.Name = "squareLogo2";
+            this.squareLogo2.Size = new System.Drawing.Size(172, 172);
+            this.squareLogo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.squareLogo2.TabIndex = 2;
+            this.squareLogo2.TabStop = false;
+            // 
+            // longLogo
+            // 
+            this.longLogo.Image = ((System.Drawing.Image)(resources.GetObject("longLogo.Image")));
+            this.longLogo.Location = new System.Drawing.Point(561, 630);
+            this.longLogo.Name = "longLogo";
+            this.longLogo.Size = new System.Drawing.Size(524, 111);
+            this.longLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.longLogo.TabIndex = 1;
+            this.longLogo.TabStop = false;
+            // 
+            // squareLogo
+            // 
+            this.squareLogo.Image = global::Human_FitnessProject.Properties.Resources.Color_logo_with_background;
+            this.squareLogo.Location = new System.Drawing.Point(23, 12);
+            this.squareLogo.Name = "squareLogo";
+            this.squareLogo.Size = new System.Drawing.Size(172, 172);
+            this.squareLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.squareLogo.TabIndex = 0;
+            this.squareLogo.TabStop = false;
+            // 
             // welcomePage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
@@ -240,11 +240,11 @@ namespace Human_FitnessProject
             this.TransparencyKey = System.Drawing.Color.OldLace;
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.welcomePage_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.squareLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.longLogo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.squareLogo2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.bcpicture)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.bcpicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.squareLogo2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.longLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.squareLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

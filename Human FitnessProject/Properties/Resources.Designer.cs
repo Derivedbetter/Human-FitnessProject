@@ -63,9 +63,59 @@ namespace Human_FitnessProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BC {
+            get {
+                object obj = ResourceManager.GetObject("BC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap beach_workout {
+            get {
+                object obj = ResourceManager.GetObject("beach workout", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap color_logo___with_background {
             get {
                 object obj = ResourceManager.GetObject("color logo - with background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Color_logo_with_background {
+            get {
+                object obj = ResourceManager.GetObject("Color logo with background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cropped_IG {
+            get {
+                object obj = ResourceManager.GetObject("Cropped IG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cropped_IG1 {
+            get {
+                object obj = ResourceManager.GetObject("Cropped IG1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
