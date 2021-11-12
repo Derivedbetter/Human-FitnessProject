@@ -68,9 +68,9 @@ namespace Human_FitnessProject
             this.backbutton.BackColor = System.Drawing.Color.Crimson;
             this.backbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.backbutton.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.backbutton.Location = new System.Drawing.Point(12, 649);
+            this.backbutton.Location = new System.Drawing.Point(10, 559);
             this.backbutton.Name = "backbutton";
-            this.backbutton.Size = new System.Drawing.Size(506, 43);
+            this.backbutton.Size = new System.Drawing.Size(434, 37);
             this.backbutton.TabIndex = 1;
             this.backbutton.Text = "Take me Back to where I started...";
             this.backbutton.UseVisualStyleBackColor = false;
@@ -80,9 +80,9 @@ namespace Human_FitnessProject
             // 
             this.initialInfo.AutoSize = true;
             this.initialInfo.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.initialInfo.Location = new System.Drawing.Point(43, 239);
+            this.initialInfo.Location = new System.Drawing.Point(37, 206);
             this.initialInfo.Name = "initialInfo";
-            this.initialInfo.Size = new System.Drawing.Size(375, 29);
+            this.initialInfo.Size = new System.Drawing.Size(340, 25);
             this.initialInfo.TabIndex = 5;
             this.initialInfo.Text = "Now that you are here, let\'s gather";
             // 
@@ -90,9 +90,9 @@ namespace Human_FitnessProject
             // 
             this.physicalInfo.AutoSize = true;
             this.physicalInfo.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.physicalInfo.Location = new System.Drawing.Point(1231, 270);
+            this.physicalInfo.Location = new System.Drawing.Point(1055, 233);
             this.physicalInfo.Name = "physicalInfo";
-            this.physicalInfo.Size = new System.Drawing.Size(270, 29);
+            this.physicalInfo.Size = new System.Drawing.Size(246, 25);
             this.physicalInfo.TabIndex = 6;
             this.physicalInfo.Text = "Initial Physical Attributes";
             // 
@@ -100,9 +100,9 @@ namespace Human_FitnessProject
             // 
             this.initialinfo2.AutoSize = true;
             this.initialinfo2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.initialinfo2.Location = new System.Drawing.Point(91, 279);
+            this.initialinfo2.Location = new System.Drawing.Point(78, 241);
             this.initialinfo2.Name = "initialinfo2";
-            this.initialinfo2.Size = new System.Drawing.Size(260, 29);
+            this.initialinfo2.Size = new System.Drawing.Size(232, 25);
             this.initialinfo2.TabIndex = 7;
             this.initialinfo2.Text = "some initial information";
             // 
@@ -110,9 +110,9 @@ namespace Human_FitnessProject
             // 
             this.boom.AutoSize = true;
             this.boom.Font = new System.Drawing.Font("Monotype Corsiva", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boom.Location = new System.Drawing.Point(521, -6);
+            this.boom.Location = new System.Drawing.Point(447, -5);
             this.boom.Name = "boom";
-            this.boom.Size = new System.Drawing.Size(554, 85);
+            this.boom.Size = new System.Drawing.Size(494, 79);
             this.boom.TabIndex = 8;
             this.boom.Text = "BOOM! You did it!";
             // 
@@ -125,41 +125,41 @@ namespace Human_FitnessProject
             this.initinfoPanel.Controls.Add(this.clientDOB);
             this.initinfoPanel.Controls.Add(this.clientAge);
             this.initinfoPanel.Controls.Add(this.clientName);
-            this.initinfoPanel.Location = new System.Drawing.Point(12, 311);
+            this.initinfoPanel.Location = new System.Drawing.Point(10, 268);
             this.initinfoPanel.Name = "initinfoPanel";
-            this.initinfoPanel.Size = new System.Drawing.Size(426, 311);
+            this.initinfoPanel.Size = new System.Drawing.Size(365, 268);
             this.initinfoPanel.TabIndex = 9;
             this.initinfoPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.initinfoPanel_Paint);
             // 
             // dobBox
             // 
-            this.dobBox.Location = new System.Drawing.Point(198, 228);
+            this.dobBox.Location = new System.Drawing.Point(170, 197);
             this.dobBox.Name = "dobBox";
-            this.dobBox.Size = new System.Drawing.Size(208, 35);
+            this.dobBox.Size = new System.Drawing.Size(179, 31);
             this.dobBox.TabIndex = 6;
             // 
             // ageBox
             // 
-            this.ageBox.Location = new System.Drawing.Point(201, 159);
+            this.ageBox.Location = new System.Drawing.Point(172, 137);
             this.ageBox.Name = "ageBox";
-            this.ageBox.Size = new System.Drawing.Size(205, 35);
+            this.ageBox.Size = new System.Drawing.Size(176, 31);
             this.ageBox.TabIndex = 5;
             this.ageBox.TextChanged += new System.EventHandler(this.ageBox_TextChanged);
             // 
             // nameBox
             // 
-            this.nameBox.Location = new System.Drawing.Point(201, 88);
+            this.nameBox.Location = new System.Drawing.Point(172, 76);
             this.nameBox.Name = "nameBox";
-            this.nameBox.Size = new System.Drawing.Size(205, 35);
+            this.nameBox.Size = new System.Drawing.Size(176, 31);
             this.nameBox.TabIndex = 4;
             // 
             // clientDOB
             // 
             this.clientDOB.AutoSize = true;
             this.clientDOB.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientDOB.Location = new System.Drawing.Point(36, 228);
+            this.clientDOB.Location = new System.Drawing.Point(31, 197);
             this.clientDOB.Name = "clientDOB";
-            this.clientDOB.Size = new System.Drawing.Size(155, 29);
+            this.clientDOB.Size = new System.Drawing.Size(141, 25);
             this.clientDOB.TabIndex = 2;
             this.clientDOB.Text = "Date Of Birth:";
             this.clientDOB.Click += new System.EventHandler(this.label3_Click);
@@ -168,9 +168,9 @@ namespace Human_FitnessProject
             // 
             this.clientAge.AutoSize = true;
             this.clientAge.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientAge.Location = new System.Drawing.Point(36, 159);
+            this.clientAge.Location = new System.Drawing.Point(31, 137);
             this.clientAge.Name = "clientAge";
-            this.clientAge.Size = new System.Drawing.Size(62, 29);
+            this.clientAge.Size = new System.Drawing.Size(56, 25);
             this.clientAge.TabIndex = 1;
             this.clientAge.Text = "Age:";
             // 
@@ -178,9 +178,9 @@ namespace Human_FitnessProject
             // 
             this.clientName.AutoSize = true;
             this.clientName.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientName.Location = new System.Drawing.Point(36, 88);
+            this.clientName.Location = new System.Drawing.Point(31, 76);
             this.clientName.Name = "clientName";
-            this.clientName.Size = new System.Drawing.Size(84, 29);
+            this.clientName.Size = new System.Drawing.Size(74, 25);
             this.clientName.TabIndex = 0;
             this.clientName.Text = "Name:";
             // 
@@ -193,34 +193,34 @@ namespace Human_FitnessProject
             this.attribPanel.Controls.Add(this.clientWeight);
             this.attribPanel.Controls.Add(this.weightBox);
             this.attribPanel.Controls.Add(this.clientGender);
-            this.attribPanel.Location = new System.Drawing.Point(1144, 311);
+            this.attribPanel.Location = new System.Drawing.Point(981, 268);
             this.attribPanel.Name = "attribPanel";
-            this.attribPanel.Size = new System.Drawing.Size(426, 311);
+            this.attribPanel.Size = new System.Drawing.Size(365, 268);
             this.attribPanel.TabIndex = 10;
             this.attribPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.attribPanel_Paint);
             // 
             // heightBox
             // 
-            this.heightBox.Location = new System.Drawing.Point(188, 152);
+            this.heightBox.Location = new System.Drawing.Point(161, 131);
             this.heightBox.Name = "heightBox";
-            this.heightBox.Size = new System.Drawing.Size(208, 35);
+            this.heightBox.Size = new System.Drawing.Size(179, 31);
             this.heightBox.TabIndex = 8;
             this.heightBox.TextChanged += new System.EventHandler(this.heightBox_TextChanged);
             // 
             // genderBox
             // 
-            this.genderBox.Location = new System.Drawing.Point(188, 222);
+            this.genderBox.Location = new System.Drawing.Point(161, 191);
             this.genderBox.Name = "genderBox";
-            this.genderBox.Size = new System.Drawing.Size(208, 35);
+            this.genderBox.Size = new System.Drawing.Size(179, 31);
             this.genderBox.TabIndex = 7;
             // 
             // clientHeight
             // 
             this.clientHeight.AutoSize = true;
             this.clientHeight.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientHeight.Location = new System.Drawing.Point(3, 155);
+            this.clientHeight.Location = new System.Drawing.Point(3, 134);
             this.clientHeight.Name = "clientHeight";
-            this.clientHeight.Size = new System.Drawing.Size(181, 29);
+            this.clientHeight.Size = new System.Drawing.Size(163, 25);
             this.clientHeight.TabIndex = 2;
             this.clientHeight.Text = "Height (inches):";
             // 
@@ -228,17 +228,17 @@ namespace Human_FitnessProject
             // 
             this.clientWeight.AutoSize = true;
             this.clientWeight.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientWeight.Location = new System.Drawing.Point(31, 88);
+            this.clientWeight.Location = new System.Drawing.Point(3, 71);
             this.clientWeight.Name = "clientWeight";
-            this.clientWeight.Size = new System.Drawing.Size(148, 29);
+            this.clientWeight.Size = new System.Drawing.Size(133, 25);
             this.clientWeight.TabIndex = 1;
             this.clientWeight.Text = "Weight (lbs):";
             // 
             // weightBox
             // 
-            this.weightBox.Location = new System.Drawing.Point(188, 82);
+            this.weightBox.Location = new System.Drawing.Point(161, 71);
             this.weightBox.Name = "weightBox";
-            this.weightBox.Size = new System.Drawing.Size(208, 35);
+            this.weightBox.Size = new System.Drawing.Size(179, 31);
             this.weightBox.TabIndex = 0;
             this.weightBox.TextChanged += new System.EventHandler(this.weightBox_TextChanged);
             // 
@@ -246,18 +246,18 @@ namespace Human_FitnessProject
             // 
             this.clientGender.AutoSize = true;
             this.clientGender.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientGender.Location = new System.Drawing.Point(25, 234);
+            this.clientGender.Location = new System.Drawing.Point(3, 191);
             this.clientGender.Name = "clientGender";
-            this.clientGender.Size = new System.Drawing.Size(100, 29);
+            this.clientGender.Size = new System.Drawing.Size(89, 25);
             this.clientGender.TabIndex = 3;
             this.clientGender.Text = "Gender:";
             this.clientGender.Click += new System.EventHandler(this.label4_Click);
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(524, 82);
+            this.progressBar1.Location = new System.Drawing.Point(449, 71);
             this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(551, 45);
+            this.progressBar1.Size = new System.Drawing.Size(472, 39);
             this.progressBar1.TabIndex = 11;
             // 
             // nextButton
@@ -266,9 +266,9 @@ namespace Human_FitnessProject
             this.nextButton.BackColor = System.Drawing.SystemColors.HotTrack;
             this.nextButton.Font = new System.Drawing.Font("Monotype Corsiva", 10F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nextButton.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.nextButton.Location = new System.Drawing.Point(1081, 649);
+            this.nextButton.Location = new System.Drawing.Point(927, 559);
             this.nextButton.Name = "nextButton";
-            this.nextButton.Size = new System.Drawing.Size(489, 45);
+            this.nextButton.Size = new System.Drawing.Size(419, 39);
             this.nextButton.TabIndex = 12;
             this.nextButton.Text = "I\'m Done Here...Let\'s Go!";
             this.nextButton.UseVisualStyleBackColor = false;
@@ -276,9 +276,9 @@ namespace Human_FitnessProject
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Human_FitnessProject.Properties.Resources.color_logo___with_background;
-            this.pictureBox2.Location = new System.Drawing.Point(524, 584);
+            this.pictureBox2.Location = new System.Drawing.Point(449, 503);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(551, 132);
+            this.pictureBox2.Size = new System.Drawing.Size(472, 114);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
@@ -286,9 +286,9 @@ namespace Human_FitnessProject
             // logo3
             // 
             this.logo3.Image = ((System.Drawing.Image)(resources.GetObject("logo3.Image")));
-            this.logo3.Location = new System.Drawing.Point(1398, 12);
+            this.logo3.Location = new System.Drawing.Point(1198, 10);
             this.logo3.Name = "logo3";
-            this.logo3.Size = new System.Drawing.Size(172, 172);
+            this.logo3.Size = new System.Drawing.Size(147, 148);
             this.logo3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logo3.TabIndex = 3;
             this.logo3.TabStop = false;
@@ -296,9 +296,9 @@ namespace Human_FitnessProject
             // logo2
             // 
             this.logo2.Image = global::Human_FitnessProject.Properties.Resources.Color_logo_with_background;
-            this.logo2.Location = new System.Drawing.Point(12, 12);
+            this.logo2.Location = new System.Drawing.Point(10, 10);
             this.logo2.Name = "logo2";
-            this.logo2.Size = new System.Drawing.Size(172, 172);
+            this.logo2.Size = new System.Drawing.Size(147, 148);
             this.logo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logo2.TabIndex = 2;
             this.logo2.TabStop = false;
@@ -306,19 +306,19 @@ namespace Human_FitnessProject
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Human_FitnessProject.Properties.Resources.beach_workout;
-            this.pictureBox1.Location = new System.Drawing.Point(522, 143);
+            this.pictureBox1.Location = new System.Drawing.Point(447, 123);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(553, 435);
+            this.pictureBox1.Size = new System.Drawing.Size(474, 375);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // intake
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 29F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1582, 728);
+            this.ClientSize = new System.Drawing.Size(1358, 634);
             this.Controls.Add(this.nextButton);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.attribPanel);
@@ -334,7 +334,7 @@ namespace Human_FitnessProject
             this.Controls.Add(this.pictureBox1);
             this.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(1610, 807);
+            this.MaximumSize = new System.Drawing.Size(1384, 705);
             this.Name = "intake";
             this.Text = "WE ARE SO GLAD YOU MADE IT HERE!";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
