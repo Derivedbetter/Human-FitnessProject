@@ -180,9 +180,9 @@ namespace Human_FitnessProject
             this.clientName.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.clientName.Location = new System.Drawing.Point(31, 76);
             this.clientName.Name = "clientName";
-            this.clientName.Size = new System.Drawing.Size(74, 25);
+            this.clientName.Size = new System.Drawing.Size(115, 25);
             this.clientName.TabIndex = 0;
-            this.clientName.Text = "Name:";
+            this.clientName.Text = "Full Name:";
             // 
             // attribPanel
             // 
@@ -272,6 +272,7 @@ namespace Human_FitnessProject
             this.nextButton.TabIndex = 12;
             this.nextButton.Text = "I\'m Done Here...Let\'s Go!";
             this.nextButton.UseVisualStyleBackColor = false;
+            this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
             // 
             // pictureBox2
             // 
@@ -319,6 +320,7 @@ namespace Human_FitnessProject
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1358, 634);
+            this.ControlBox = false;
             this.Controls.Add(this.nextButton);
             this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.attribPanel);
@@ -336,8 +338,8 @@ namespace Human_FitnessProject
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1384, 705);
             this.Name = "intake";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WE ARE SO GLAD YOU MADE IT HERE!";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.intake_Load);
             this.initinfoPanel.ResumeLayout(false);
             this.initinfoPanel.PerformLayout();

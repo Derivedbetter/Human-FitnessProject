@@ -133,6 +133,26 @@ namespace Human_FitnessProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ParQpage1 {
+            get {
+                object obj = ResourceManager.GetObject("ParQpage1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ParQpage2 {
+            get {
+                object obj = ResourceManager.GetObject("ParQpage2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Waiver {
             get {
                 object obj = ResourceManager.GetObject("Waiver", resourceCulture);
@@ -146,6 +166,16 @@ namespace Human_FitnessProject.Properties {
         internal static System.Drawing.Bitmap Waiver1 {
             get {
                 object obj = ResourceManager.GetObject("Waiver1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Waiverform {
+            get {
+                object obj = ResourceManager.GetObject("Waiverform", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -219,6 +219,7 @@ namespace Human_FitnessProject
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1358, 634);
+            this.ControlBox = false;
             this.Controls.Add(this.noButton);
             this.Controls.Add(this.yesButton1);
             this.Controls.Add(this.pictureBox1);
@@ -236,9 +237,9 @@ namespace Human_FitnessProject
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1384, 705);
             this.Name = "welcomePage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Welcome Page";
             this.TransparencyKey = System.Drawing.Color.OldLace;
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.welcomePage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bcpicture)).EndInit();

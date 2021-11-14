@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+
 
 namespace Human_FitnessProject
 {
@@ -15,7 +17,10 @@ namespace Human_FitnessProject
         int clientAge1;
         int clientWeight1;
         int clientHeight1;
-
+        string fullName;
+        string gender;
+        string birthdate;
+        
         public intake()
         {
             InitializeComponent();
@@ -88,6 +93,19 @@ namespace Human_FitnessProject
             catch
             { 
                 MessageBox.Show("Please type in a valid Height in inches!");
+            }
+        }
+
+        private void nextButton_Click(object sender, EventArgs e)
+        {
+            
+            {
+                parqandwaiver parqandwaiver = new parqandwaiver();
+                this.Hide();
+                parqandwaiver.Show();
+                parqandwaiver.RefTointake = this;
+                this.Visible = false;
+                parqandwaiver.Show();
             }
         }
     }
