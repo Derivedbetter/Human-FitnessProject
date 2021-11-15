@@ -33,13 +33,6 @@ namespace Human_FitnessProject
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(parqandwaiver));
             this.awesomeLabel = new System.Windows.Forms.Label();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.motivation2 = new System.Windows.Forms.PictureBox();
-            this.motivation1 = new System.Windows.Forms.PictureBox();
-            this.waiverBox = new System.Windows.Forms.PictureBox();
-            this.parQBox = new System.Windows.Forms.PictureBox();
-            this.squareLogo2 = new System.Windows.Forms.PictureBox();
-            this.longLogo = new System.Windows.Forms.PictureBox();
-            this.squareLogo = new System.Windows.Forms.PictureBox();
             this.continue2 = new System.Windows.Forms.Button();
             this.backtoIntake = new System.Windows.Forms.Button();
             this.parqLabel = new System.Windows.Forms.Label();
@@ -47,6 +40,13 @@ namespace Human_FitnessProject
             this.mot1Timer = new System.Windows.Forms.Timer(this.components);
             this.mot2Timer = new System.Windows.Forms.Timer(this.components);
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.motivation2 = new System.Windows.Forms.PictureBox();
+            this.motivation1 = new System.Windows.Forms.PictureBox();
+            this.waiverBox = new System.Windows.Forms.PictureBox();
+            this.parQBox = new System.Windows.Forms.PictureBox();
+            this.squareLogo2 = new System.Windows.Forms.PictureBox();
+            this.longLogo = new System.Windows.Forms.PictureBox();
+            this.squareLogo = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.motivation2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.motivation1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.waiverBox)).BeginInit();
@@ -61,7 +61,7 @@ namespace Human_FitnessProject
             this.awesomeLabel.AutoSize = true;
             this.awesomeLabel.Font = new System.Drawing.Font("Monotype Corsiva", 22.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.awesomeLabel.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.awesomeLabel.Location = new System.Drawing.Point(268, 9);
+            this.awesomeLabel.Location = new System.Drawing.Point(173, 9);
             this.awesomeLabel.Name = "awesomeLabel";
             this.awesomeLabel.Size = new System.Drawing.Size(849, 71);
             this.awesomeLabel.TabIndex = 20;
@@ -74,6 +74,81 @@ namespace Human_FitnessProject
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(472, 39);
             this.progressBar1.TabIndex = 21;
+            // 
+            // continue2
+            // 
+            this.continue2.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.continue2.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.continue2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.continue2.Location = new System.Drawing.Point(1019, 567);
+            this.continue2.Name = "continue2";
+            this.continue2.Size = new System.Drawing.Size(327, 42);
+            this.continue2.TabIndex = 25;
+            this.continue2.Text = "Moving On!";
+            this.continue2.UseVisualStyleBackColor = false;
+            this.continue2.Click += new System.EventHandler(this.continue2_Click);
+            // 
+            // backtoIntake
+            // 
+            this.backtoIntake.BackColor = System.Drawing.Color.Red;
+            this.backtoIntake.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backtoIntake.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.backtoIntake.Location = new System.Drawing.Point(12, 567);
+            this.backtoIntake.Name = "backtoIntake";
+            this.backtoIntake.Size = new System.Drawing.Size(330, 42);
+            this.backtoIntake.TabIndex = 26;
+            this.backtoIntake.Text = "Back To Intake";
+            this.backtoIntake.UseVisualStyleBackColor = false;
+            this.backtoIntake.Click += new System.EventHandler(this.backtoIntake_Click);
+            // 
+            // parqLabel
+            // 
+            this.parqLabel.AutoSize = true;
+            this.parqLabel.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.parqLabel.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.parqLabel.Location = new System.Drawing.Point(408, 523);
+            this.parqLabel.Name = "parqLabel";
+            this.parqLabel.Size = new System.Drawing.Size(220, 33);
+            this.parqLabel.TabIndex = 27;
+            this.parqLabel.Text = "Click Form to Fillout";
+            // 
+            // waiverlabel
+            // 
+            this.waiverlabel.AutoSize = true;
+            this.waiverlabel.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.waiverlabel.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.waiverlabel.Location = new System.Drawing.Point(727, 523);
+            this.waiverlabel.Name = "waiverlabel";
+            this.waiverlabel.Size = new System.Drawing.Size(220, 33);
+            this.waiverlabel.TabIndex = 28;
+            this.waiverlabel.Text = "Click Form to Fillout";
+            // 
+            // mot1Timer
+            // 
+            this.mot1Timer.Enabled = true;
+            this.mot1Timer.Interval = 4000;
+            this.mot1Timer.Tick += new System.EventHandler(this.mot1Timer_Tick);
+            // 
+            // mot2Timer
+            // 
+            this.mot2Timer.Enabled = true;
+            this.mot2Timer.Interval = 3000;
+            this.mot2Timer.Tick += new System.EventHandler(this.mot2Timer_Tick);
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "screen1.jpg");
+            this.imageList1.Images.SetKeyName(1, "screen2.jpg");
+            this.imageList1.Images.SetKeyName(2, "screen3.jpg");
+            this.imageList1.Images.SetKeyName(3, "screen4.jpg");
+            this.imageList1.Images.SetKeyName(4, "screen5.jpg");
+            this.imageList1.Images.SetKeyName(5, "screen6.jpg");
+            this.imageList1.Images.SetKeyName(6, "screen7.jpg");
+            this.imageList1.Images.SetKeyName(7, "screen8.jpg");
+            this.imageList1.Images.SetKeyName(8, "screen9.jpg");
+            this.imageList1.Images.SetKeyName(9, "surprised.jpg");
             // 
             // motivation2
             // 
@@ -146,80 +221,6 @@ namespace Human_FitnessProject
             this.squareLogo.TabIndex = 15;
             this.squareLogo.TabStop = false;
             // 
-            // continue2
-            // 
-            this.continue2.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.continue2.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.continue2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.continue2.Location = new System.Drawing.Point(1019, 567);
-            this.continue2.Name = "continue2";
-            this.continue2.Size = new System.Drawing.Size(327, 42);
-            this.continue2.TabIndex = 25;
-            this.continue2.Text = "Moving On!";
-            this.continue2.UseVisualStyleBackColor = false;
-            this.continue2.Click += new System.EventHandler(this.continue2_Click);
-            // 
-            // backtoIntake
-            // 
-            this.backtoIntake.BackColor = System.Drawing.Color.Red;
-            this.backtoIntake.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.backtoIntake.Location = new System.Drawing.Point(12, 567);
-            this.backtoIntake.Name = "backtoIntake";
-            this.backtoIntake.Size = new System.Drawing.Size(330, 42);
-            this.backtoIntake.TabIndex = 26;
-            this.backtoIntake.Text = "Back To Intake";
-            this.backtoIntake.UseVisualStyleBackColor = false;
-            this.backtoIntake.Click += new System.EventHandler(this.backtoIntake_Click);
-            // 
-            // parqLabel
-            // 
-            this.parqLabel.AutoSize = true;
-            this.parqLabel.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parqLabel.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.parqLabel.Location = new System.Drawing.Point(408, 523);
-            this.parqLabel.Name = "parqLabel";
-            this.parqLabel.Size = new System.Drawing.Size(220, 33);
-            this.parqLabel.TabIndex = 27;
-            this.parqLabel.Text = "Click Form to Fillout";
-            // 
-            // waiverlabel
-            // 
-            this.waiverlabel.AutoSize = true;
-            this.waiverlabel.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.waiverlabel.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.waiverlabel.Location = new System.Drawing.Point(727, 523);
-            this.waiverlabel.Name = "waiverlabel";
-            this.waiverlabel.Size = new System.Drawing.Size(220, 33);
-            this.waiverlabel.TabIndex = 28;
-            this.waiverlabel.Text = "Click Form to Fillout";
-            // 
-            // mot1Timer
-            // 
-            this.mot1Timer.Enabled = true;
-            this.mot1Timer.Interval = 4000;
-            this.mot1Timer.Tick += new System.EventHandler(this.mot1Timer_Tick);
-            // 
-            // mot2Timer
-            // 
-            this.mot2Timer.Enabled = true;
-            this.mot2Timer.Interval = 3000;
-            this.mot2Timer.Tick += new System.EventHandler(this.mot2Timer_Tick);
-            // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "screen1.jpg");
-            this.imageList1.Images.SetKeyName(1, "screen2.jpg");
-            this.imageList1.Images.SetKeyName(2, "screen3.jpg");
-            this.imageList1.Images.SetKeyName(3, "screen4.jpg");
-            this.imageList1.Images.SetKeyName(4, "screen5.jpg");
-            this.imageList1.Images.SetKeyName(5, "screen6.jpg");
-            this.imageList1.Images.SetKeyName(6, "screen7.jpg");
-            this.imageList1.Images.SetKeyName(7, "screen8.jpg");
-            this.imageList1.Images.SetKeyName(8, "screen9.jpg");
-            this.imageList1.Images.SetKeyName(9, "surprised.jpg");
-            // 
             // parqandwaiver
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
@@ -240,6 +241,7 @@ namespace Human_FitnessProject
             this.Controls.Add(this.squareLogo2);
             this.Controls.Add(this.longLogo);
             this.Controls.Add(this.squareLogo);
+            this.Font = new System.Drawing.Font("Monotype Corsiva", 7.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1384, 705);
             this.MinimizeBox = false;

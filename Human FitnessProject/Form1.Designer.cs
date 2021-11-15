@@ -218,7 +218,7 @@ namespace Human_FitnessProject
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1358, 634);
+            this.ClientSize = new System.Drawing.Size(1359, 634);
             this.ControlBox = false;
             this.Controls.Add(this.noButton);
             this.Controls.Add(this.yesButton1);
@@ -234,8 +234,9 @@ namespace Human_FitnessProject
             this.Controls.Add(this.squareLogo2);
             this.Controls.Add(this.longLogo);
             this.Controls.Add(this.squareLogo);
+            this.Font = new System.Drawing.Font("Monotype Corsiva", 7.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(1384, 705);
+            this.MaximumSize = new System.Drawing.Size(1385, 705);
             this.Name = "welcomePage";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Welcome Page";

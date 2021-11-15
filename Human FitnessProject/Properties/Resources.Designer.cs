@@ -83,6 +83,16 @@ namespace Human_FitnessProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap BMI {
+            get {
+                object obj = ResourceManager.GetObject("BMI", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap color_logo___with_background {
             get {
                 object obj = ResourceManager.GetObject("color logo - with background", resourceCulture);
@@ -123,6 +133,16 @@ namespace Human_FitnessProject.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap goalsform {
+            get {
+                object obj = ResourceManager.GetObject("goalsform", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ParQ {
             get {
                 object obj = ResourceManager.GetObject("ParQ", resourceCulture);
@@ -146,6 +166,16 @@ namespace Human_FitnessProject.Properties {
         internal static System.Drawing.Bitmap ParQpage2 {
             get {
                 object obj = ResourceManager.GetObject("ParQpage2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Sawgrass_Health___Fitness_Photo_4_Fitness_Interior {
+            get {
+                object obj = ResourceManager.GetObject("Sawgrass+Health+&+Fitness+Photo+4+Fitness+Interior", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

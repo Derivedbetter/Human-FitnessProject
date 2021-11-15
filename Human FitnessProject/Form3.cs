@@ -24,7 +24,10 @@ namespace Human_FitnessProject
             mot1Timer.Start();
             mot2Timer.Start();
         }
-            
+        public void ShowDataFromForm2(string message)
+        {
+            awesomeLabel.Text = ("Hi " + message + "! Let's take care of Your details!");
+        }
 
         private void awesomeLabel_Click(object sender, EventArgs e)
         {
@@ -73,7 +76,9 @@ namespace Human_FitnessProject
         
         private void continue2_Click(object sender, EventArgs e)
         {
-
+            goalsForm goalsForm = new goalsForm();
+            this.Hide();
+            goalsForm.Show();
         }
 
         private void backtoIntake_Click(object sender, EventArgs e)
