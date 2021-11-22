@@ -29,6 +29,7 @@ namespace Human_FitnessProject
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(intake));
             this.backbutton = new System.Windows.Forms.Button();
             this.initialInfo = new System.Windows.Forms.Label();
@@ -36,8 +37,8 @@ namespace Human_FitnessProject
             this.initialinfo2 = new System.Windows.Forms.Label();
             this.boom = new System.Windows.Forms.Label();
             this.initinfoPanel = new System.Windows.Forms.Panel();
-            this.dobBox = new System.Windows.Forms.TextBox();
             this.ageBox = new System.Windows.Forms.TextBox();
+            this.dateOfBirthPicker = new System.Windows.Forms.DateTimePicker();
             this.nameBox = new System.Windows.Forms.TextBox();
             this.clientDOB = new System.Windows.Forms.Label();
             this.clientAge = new System.Windows.Forms.Label();
@@ -57,6 +58,11 @@ namespace Human_FitnessProject
             this.logo3 = new System.Windows.Forms.PictureBox();
             this.logo2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.emailBox = new System.Windows.Forms.TextBox();
+            this.phoneNumberBox = new System.Windows.Forms.TextBox();
+            this.clientEmail = new System.Windows.Forms.Label();
+            this.clientPhoneNumber = new System.Windows.Forms.Label();
             this.initinfoPanel.SuspendLayout();
             this.attribPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -72,9 +78,9 @@ namespace Human_FitnessProject
             this.backbutton.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.backbutton.Location = new System.Drawing.Point(10, 559);
             this.backbutton.Name = "backbutton";
-            this.backbutton.Size = new System.Drawing.Size(434, 37);
+            this.backbutton.Size = new System.Drawing.Size(165, 37);
             this.backbutton.TabIndex = 1;
-            this.backbutton.Text = "Take me Back to where I started...";
+            this.backbutton.Text = "Take me Back!";
             this.backbutton.UseVisualStyleBackColor = false;
             this.backbutton.Click += new System.EventHandler(this.backbutton_Click);
             // 
@@ -121,8 +127,12 @@ namespace Human_FitnessProject
             // initinfoPanel
             // 
             this.initinfoPanel.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.initinfoPanel.Controls.Add(this.dobBox);
+            this.initinfoPanel.Controls.Add(this.clientPhoneNumber);
+            this.initinfoPanel.Controls.Add(this.clientEmail);
+            this.initinfoPanel.Controls.Add(this.phoneNumberBox);
+            this.initinfoPanel.Controls.Add(this.emailBox);
             this.initinfoPanel.Controls.Add(this.ageBox);
+            this.initinfoPanel.Controls.Add(this.dateOfBirthPicker);
             this.initinfoPanel.Controls.Add(this.nameBox);
             this.initinfoPanel.Controls.Add(this.clientDOB);
             this.initinfoPanel.Controls.Add(this.clientAge);
@@ -132,16 +142,6 @@ namespace Human_FitnessProject
             this.initinfoPanel.Size = new System.Drawing.Size(365, 239);
             this.initinfoPanel.TabIndex = 9;
             this.initinfoPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.initinfoPanel_Paint);
-            // 
-            // dobBox
-            // 
-            this.dobBox.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dobBox.Location = new System.Drawing.Point(170, 197);
-            this.dobBox.Name = "dobBox";
-            this.dobBox.Size = new System.Drawing.Size(179, 38);
-            this.dobBox.TabIndex = 6;
-            this.dobBox.Visible = false;
-            this.dobBox.TextChanged += new System.EventHandler(this.dobBox_TextChanged);
             // 
             // ageBox
             // 
@@ -153,10 +153,26 @@ namespace Human_FitnessProject
             this.ageBox.Visible = false;
             this.ageBox.TextChanged += new System.EventHandler(this.ageBox_TextChanged);
             // 
+            // dateOfBirthPicker
+            // 
+            this.dateOfBirthPicker.CalendarFont = new System.Drawing.Font("Monotype Corsiva", 7.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateOfBirthPicker.CalendarTitleBackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dateOfBirthPicker.CalendarTrailingForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.dateOfBirthPicker.CustomFormat = "dd MMM yyyy";
+            this.dateOfBirthPicker.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateOfBirthPicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateOfBirthPicker.Location = new System.Drawing.Point(172, 192);
+            this.dateOfBirthPicker.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
+            this.dateOfBirthPicker.Name = "dateOfBirthPicker";
+            this.dateOfBirthPicker.Size = new System.Drawing.Size(176, 38);
+            this.dateOfBirthPicker.TabIndex = 15;
+            this.dateOfBirthPicker.Visible = false;
+            this.dateOfBirthPicker.ValueChanged += new System.EventHandler(this.dateOfBirthPicker_ValueChanged);
+            // 
             // nameBox
             // 
             this.nameBox.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameBox.Location = new System.Drawing.Point(172, 76);
+            this.nameBox.Location = new System.Drawing.Point(172, 3);
             this.nameBox.Name = "nameBox";
             this.nameBox.Size = new System.Drawing.Size(176, 38);
             this.nameBox.TabIndex = 4;
@@ -190,7 +206,7 @@ namespace Human_FitnessProject
             this.clientName.AutoSize = true;
             this.clientName.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clientName.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientName.Location = new System.Drawing.Point(31, 76);
+            this.clientName.Location = new System.Drawing.Point(32, 8);
             this.clientName.Name = "clientName";
             this.clientName.Size = new System.Drawing.Size(134, 33);
             this.clientName.TabIndex = 0;
@@ -228,6 +244,8 @@ namespace Human_FitnessProject
             this.genderBox.Name = "genderBox";
             this.genderBox.Size = new System.Drawing.Size(179, 38);
             this.genderBox.TabIndex = 7;
+            this.toolTip1.SetToolTip(this.genderBox, "Feel free to input any gender that feels comfortable to you...\r\nto include none o" +
+        "r N/A!");
             this.genderBox.Visible = false;
             this.genderBox.TextChanged += new System.EventHandler(this.genderBox_TextChanged);
             // 
@@ -319,6 +337,7 @@ namespace Human_FitnessProject
             this.save2.TabIndex = 14;
             this.save2.Text = "Save Attributes";
             this.save2.UseVisualStyleBackColor = false;
+            this.save2.Visible = false;
             this.save2.Click += new System.EventHandler(this.save2_Click);
             // 
             // pictureBox2
@@ -360,6 +379,54 @@ namespace Human_FitnessProject
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // toolTip1
+            // 
+            this.toolTip1.ToolTipTitle = "Genderbutton";
+            this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup);
+            // 
+            // emailBox
+            // 
+            this.emailBox.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emailBox.Location = new System.Drawing.Point(172, 47);
+            this.emailBox.Name = "emailBox";
+            this.emailBox.Size = new System.Drawing.Size(176, 38);
+            this.emailBox.TabIndex = 16;
+            this.emailBox.Visible = false;
+            this.emailBox.TextChanged += new System.EventHandler(this.emailBox_TextChanged);
+            // 
+            // phoneNumberBox
+            // 
+            this.phoneNumberBox.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phoneNumberBox.Location = new System.Drawing.Point(172, 91);
+            this.phoneNumberBox.Name = "phoneNumberBox";
+            this.phoneNumberBox.Size = new System.Drawing.Size(176, 38);
+            this.phoneNumberBox.TabIndex = 17;
+            this.phoneNumberBox.Visible = false;
+            this.phoneNumberBox.TextChanged += new System.EventHandler(this.phoneNumberBox_TextChanged);
+            // 
+            // clientEmail
+            // 
+            this.clientEmail.AutoSize = true;
+            this.clientEmail.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clientEmail.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.clientEmail.Location = new System.Drawing.Point(32, 52);
+            this.clientEmail.Name = "clientEmail";
+            this.clientEmail.Size = new System.Drawing.Size(86, 33);
+            this.clientEmail.TabIndex = 18;
+            this.clientEmail.Text = "Email:";
+            this.clientEmail.Click += new System.EventHandler(this.clientEmail_Click);
+            // 
+            // clientPhoneNumber
+            // 
+            this.clientPhoneNumber.AutoSize = true;
+            this.clientPhoneNumber.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clientPhoneNumber.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.clientPhoneNumber.Location = new System.Drawing.Point(-6, 94);
+            this.clientPhoneNumber.Name = "clientPhoneNumber";
+            this.clientPhoneNumber.Size = new System.Drawing.Size(176, 33);
+            this.clientPhoneNumber.TabIndex = 19;
+            this.clientPhoneNumber.Text = "Phone Number:";
             // 
             // intake
             // 
@@ -423,7 +490,6 @@ namespace Human_FitnessProject
         private System.Windows.Forms.Label clientAge;
         private System.Windows.Forms.Label clientName;
         private System.Windows.Forms.TextBox genderBox;
-        private System.Windows.Forms.TextBox dobBox;
         private System.Windows.Forms.TextBox ageBox;
         private System.Windows.Forms.Label clientHeight;
         private System.Windows.Forms.Label clientWeight;
@@ -433,5 +499,11 @@ namespace Human_FitnessProject
         private System.Windows.Forms.Button nextButton;
         private System.Windows.Forms.Button save1;
         private System.Windows.Forms.Button save2;
+        private System.Windows.Forms.DateTimePicker dateOfBirthPicker;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.Label clientEmail;
+        private System.Windows.Forms.TextBox phoneNumberBox;
+        private System.Windows.Forms.TextBox emailBox;
+        private System.Windows.Forms.Label clientPhoneNumber;
     }
 }

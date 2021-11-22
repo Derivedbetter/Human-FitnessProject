@@ -36,15 +36,15 @@ namespace Human_FitnessProject
             this.bmiButton = new System.Windows.Forms.Button();
             this.bmiCalculated = new System.Windows.Forms.Label();
             this.bmiPanel = new System.Windows.Forms.Panel();
+            this.instructionsLabel = new System.Windows.Forms.Label();
+            this.heightLabel = new System.Windows.Forms.Label();
+            this.weightLabel = new System.Windows.Forms.Label();
+            this.newheightBox = new System.Windows.Forms.TextBox();
+            this.newweightBox = new System.Windows.Forms.TextBox();
             this.longLogo = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.goalsLabel = new System.Windows.Forms.Label();
             this.gobackButton = new System.Windows.Forms.Button();
-            this.newweightBox = new System.Windows.Forms.TextBox();
-            this.newheightBox = new System.Windows.Forms.TextBox();
-            this.weightLabel = new System.Windows.Forms.Label();
-            this.heightLabel = new System.Windows.Forms.Label();
-            this.instructionsLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.squareLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.squareLogo2)).BeginInit();
             this.bmiPanel.SuspendLayout();
@@ -126,6 +126,54 @@ namespace Human_FitnessProject
             this.bmiPanel.TabIndex = 54;
             this.bmiPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.bmiPanel_Paint);
             // 
+            // instructionsLabel
+            // 
+            this.instructionsLabel.AutoSize = true;
+            this.instructionsLabel.Font = new System.Drawing.Font("Monotype Corsiva", 7.875F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.instructionsLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.instructionsLabel.Location = new System.Drawing.Point(104, 314);
+            this.instructionsLabel.Name = "instructionsLabel";
+            this.instructionsLabel.Size = new System.Drawing.Size(387, 25);
+            this.instructionsLabel.TabIndex = 7;
+            this.instructionsLabel.Text = "Fill in the Boxes above and then press Recalculate";
+            // 
+            // heightLabel
+            // 
+            this.heightLabel.AutoSize = true;
+            this.heightLabel.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.heightLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.heightLabel.Location = new System.Drawing.Point(389, 281);
+            this.heightLabel.Name = "heightLabel";
+            this.heightLabel.Size = new System.Drawing.Size(87, 33);
+            this.heightLabel.TabIndex = 6;
+            this.heightLabel.Text = "Height";
+            // 
+            // weightLabel
+            // 
+            this.weightLabel.AutoSize = true;
+            this.weightLabel.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.weightLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.weightLabel.Location = new System.Drawing.Point(103, 281);
+            this.weightLabel.Name = "weightLabel";
+            this.weightLabel.Size = new System.Drawing.Size(149, 33);
+            this.weightLabel.TabIndex = 5;
+            this.weightLabel.Text = "New Weight";
+            // 
+            // newheightBox
+            // 
+            this.newheightBox.Location = new System.Drawing.Point(353, 240);
+            this.newheightBox.Name = "newheightBox";
+            this.newheightBox.Size = new System.Drawing.Size(157, 38);
+            this.newheightBox.TabIndex = 4;
+            // 
+            // newweightBox
+            // 
+            this.newweightBox.Location = new System.Drawing.Point(97, 240);
+            this.newweightBox.Name = "newweightBox";
+            this.newweightBox.Size = new System.Drawing.Size(165, 38);
+            this.newweightBox.TabIndex = 3;
+            this.newweightBox.TextChanged += new System.EventHandler(this.newweightBox_TextChanged);
+            // 
             // longLogo
             // 
             this.longLogo.Image = ((System.Drawing.Image)(resources.GetObject("longLogo.Image")));
@@ -168,53 +216,6 @@ namespace Human_FitnessProject
             this.gobackButton.Text = "Go Back";
             this.gobackButton.UseVisualStyleBackColor = false;
             this.gobackButton.Click += new System.EventHandler(this.gobackButton_Click);
-            // 
-            // newweightBox
-            // 
-            this.newweightBox.Location = new System.Drawing.Point(97, 240);
-            this.newweightBox.Name = "newweightBox";
-            this.newweightBox.Size = new System.Drawing.Size(165, 38);
-            this.newweightBox.TabIndex = 3;
-            // 
-            // newheightBox
-            // 
-            this.newheightBox.Location = new System.Drawing.Point(353, 240);
-            this.newheightBox.Name = "newheightBox";
-            this.newheightBox.Size = new System.Drawing.Size(157, 38);
-            this.newheightBox.TabIndex = 4;
-            // 
-            // weightLabel
-            // 
-            this.weightLabel.AutoSize = true;
-            this.weightLabel.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.weightLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.weightLabel.Location = new System.Drawing.Point(103, 281);
-            this.weightLabel.Name = "weightLabel";
-            this.weightLabel.Size = new System.Drawing.Size(149, 33);
-            this.weightLabel.TabIndex = 5;
-            this.weightLabel.Text = "New Weight";
-            // 
-            // heightLabel
-            // 
-            this.heightLabel.AutoSize = true;
-            this.heightLabel.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.heightLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.heightLabel.Location = new System.Drawing.Point(357, 281);
-            this.heightLabel.Name = "heightLabel";
-            this.heightLabel.Size = new System.Drawing.Size(143, 33);
-            this.heightLabel.TabIndex = 6;
-            this.heightLabel.Text = "New Height";
-            // 
-            // instructionsLabel
-            // 
-            this.instructionsLabel.AutoSize = true;
-            this.instructionsLabel.Font = new System.Drawing.Font("Monotype Corsiva", 7.875F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.instructionsLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.instructionsLabel.Location = new System.Drawing.Point(104, 314);
-            this.instructionsLabel.Name = "instructionsLabel";
-            this.instructionsLabel.Size = new System.Drawing.Size(387, 25);
-            this.instructionsLabel.TabIndex = 7;
-            this.instructionsLabel.Text = "Fill in the Boxes above and then press Recalculate";
             // 
             // recalcBMIform
             // 

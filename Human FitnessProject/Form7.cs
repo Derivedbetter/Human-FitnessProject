@@ -19,6 +19,7 @@ namespace Human_FitnessProject
         }
         public double Bmi(int weight, int height)
         {
+            //BMI function.
             double result = (703 * weight) / (height * height);
             return result;
         }
@@ -41,6 +42,7 @@ namespace Human_FitnessProject
 
         private void bmiButton_Click(object sender, EventArgs e)
         {
+            //Variable declarations for client info and to calculate BMI.
             string clientweighttext;
             string fullname;
             string clientagetext;
@@ -48,6 +50,8 @@ namespace Human_FitnessProject
             string clientheighttext;
             int weight;
             int height;
+
+            //Gather previous input from text file.
             StreamReader inputFile;
             inputFile = File.OpenText("clientinfo.txt");
             fullname = inputFile.ReadLine();            
@@ -60,8 +64,12 @@ namespace Human_FitnessProject
             clientheighttext = inputFile.ReadLine();            
             int.TryParse(clientweighttext, out weight);
             int.TryParse(clientheighttext, out height);
-            double res = Bmi(weight, height);
+
+            //Call BMI function.
+            double res = Bmi(weight, height);            
             bmiCalculated.Text = ("Your BMI is " + res.ToString() + "!");
+
+            //Close Text File.
             inputFile.Close();
 
         }
@@ -81,41 +89,7 @@ namespace Human_FitnessProject
             recalcBMIform.Show();
         }
 
-        /*private void recalcbmiLabel_Click(object sender, EventArgs e)
-        {
-            string clientheighttext;
-            int height;
-            int weight;
-            StreamReader inputFile;
-            inputFile = File.OpenText("clientinfo.txt");
-            inputFile.ReadLine();
-            inputFile.ReadLine();
-            inputFile.ReadLine();
-            inputFile.ReadLine();
-            inputFile.ReadLine();
-            inputFile.ReadLine();
-            inputFile.ReadLine();
-            clientheighttext = inputFile.ReadLine();
-            int.TryParse(clientheighttext, out height);
-            newweightBox.Visible = true;
-            MessageBox.Show("Please enter in a new weight in lbs!");
-            inputFile.Close();
-
-            StreamWriter outputFile;
-            outputFile = File.CreateText("newweight.txt");
-            string clientWeight = newweightBox.Text;
-            outputFile.WriteLine(clientWeight);
-            outputFile.Close();
-
-            StreamReader newFile;
-            newFile = File.OpenText("newweight.txt");
-            string newweigthttext;
-            newweigthttext = newFile.ReadLine();
-            int.TryParse(newweigthttext, out weight);
-
-            double res = Bmi(weight, height);
-            bmiCalculated.Text = ("Your new BMI is " + res.ToString() + "!");
-        */
+        
     }
     }
 

@@ -12,6 +12,7 @@ namespace Human_FitnessProject
 {
     public partial class parqandwaiver : Form
     {
+        //Initial variable declarations.
         Image[] motivation = new Image [10];
         Random random = new Random();
         
@@ -24,9 +25,10 @@ namespace Human_FitnessProject
             mot1Timer.Start();
             mot2Timer.Start();
         }
+        //Get fullName form intakeForm
         public void ShowDataFromForm2(string message)
         {
-            awesomeLabel.Text = ("Hi " + message + "! Let's take care of Your details!");
+            awesomeLabel.Text = "Hi " + message + "! Let's take care of Your details!";
         }
 
         private void awesomeLabel_Click(object sender, EventArgs e)
@@ -37,6 +39,7 @@ namespace Human_FitnessProject
         
         private void parqandwaiver_Load(object sender, EventArgs e)
         {
+            //Declare initial image variables and place subsequent images in array
             int initialImg1 = random.Next(10);
             int initialImg2 = random.Next(10);
             motivation[0] = Image.FromFile("screen1.jpg");
@@ -83,6 +86,7 @@ namespace Human_FitnessProject
 
         private void backtoIntake_Click(object sender, EventArgs e)
         {
+            //Error handling for RefTointake if it no longer exists.
             if (RefTointake == null)
             {
                 intake intake = new intake();
@@ -103,7 +107,7 @@ namespace Human_FitnessProject
         }
         
         
-
+        //Methods for handling randonm pictures in two picture boxes.
         private void mot1Timer_Tick(object sender, EventArgs e)
         {
             int randomImg1 = random.Next(10);

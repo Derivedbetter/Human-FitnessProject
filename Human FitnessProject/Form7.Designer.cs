@@ -65,9 +65,10 @@ namespace Human_FitnessProject
             this.goalsclickLabel.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.goalsclickLabel.Location = new System.Drawing.Point(583, 496);
             this.goalsclickLabel.Name = "goalsclickLabel";
-            this.goalsclickLabel.Size = new System.Drawing.Size(220, 33);
+            this.goalsclickLabel.Size = new System.Drawing.Size(313, 33);
             this.goalsclickLabel.TabIndex = 40;
-            this.goalsclickLabel.Text = "Click Form to Fillout";
+            this.goalsclickLabel.Text = "Click on the Form to Fill it out";
+            this.goalsclickLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // backtoparqButton
             // 
@@ -176,11 +177,11 @@ namespace Human_FitnessProject
             // explainLabel
             // 
             this.explainLabel.AutoSize = true;
-            this.explainLabel.Font = new System.Drawing.Font("Monotype Corsiva", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.explainLabel.Font = new System.Drawing.Font("Monotype Corsiva", 16.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.explainLabel.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.explainLabel.Location = new System.Drawing.Point(-5, 0);
             this.explainLabel.Name = "explainLabel";
-            this.explainLabel.Size = new System.Drawing.Size(453, 308);
+            this.explainLabel.Size = new System.Drawing.Size(807, 572);
             this.explainLabel.TabIndex = 0;
             this.explainLabel.Text = resources.GetString("explainLabel.Text");
             this.explainLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;

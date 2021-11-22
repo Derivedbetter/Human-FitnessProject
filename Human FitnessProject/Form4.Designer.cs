@@ -31,20 +31,35 @@ namespace Human_FitnessProject
         {
             this.continuepage2 = new System.Windows.Forms.Button();
             this.back3 = new System.Windows.Forms.Button();
-            this.CheckBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
-            this.checkBox13 = new System.Windows.Forms.CheckBox();
-            this.checkBox14 = new System.Windows.Forms.CheckBox();
-            this.checkBox15 = new System.Windows.Forms.CheckBox();
-            this.checkBox16 = new System.Windows.Forms.CheckBox();
-            this.checkBox17 = new System.Windows.Forms.CheckBox();
-            this.checkBox18 = new System.Windows.Forms.CheckBox();
-            this.checkBox19 = new System.Windows.Forms.CheckBox();
-            this.checkBox20 = new System.Windows.Forms.CheckBox();
+            this.yesButton1 = new System.Windows.Forms.RadioButton();
+            this.noButton1 = new System.Windows.Forms.RadioButton();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.yesButton2 = new System.Windows.Forms.RadioButton();
+            this.noButton2 = new System.Windows.Forms.RadioButton();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.yesButton3 = new System.Windows.Forms.RadioButton();
+            this.noButton3 = new System.Windows.Forms.RadioButton();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.yesButton4 = new System.Windows.Forms.RadioButton();
+            this.noButton4 = new System.Windows.Forms.RadioButton();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.yesButton5 = new System.Windows.Forms.RadioButton();
+            this.noButton5 = new System.Windows.Forms.RadioButton();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.yesButton6 = new System.Windows.Forms.RadioButton();
+            this.noButton6 = new System.Windows.Forms.RadioButton();
+            this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.yesButton7 = new System.Windows.Forms.RadioButton();
+            this.noButton7 = new System.Windows.Forms.RadioButton();
+            this.saveButton = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
+            this.groupBox6.SuspendLayout();
+            this.groupBox7.SuspendLayout();
             this.SuspendLayout();
             // 
             // continuepage2
@@ -52,13 +67,14 @@ namespace Human_FitnessProject
             this.continuepage2.BackColor = System.Drawing.SystemColors.HotTrack;
             this.continuepage2.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.continuepage2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.continuepage2.Location = new System.Drawing.Point(225, 773);
+            this.continuepage2.Location = new System.Drawing.Point(384, 773);
             this.continuepage2.Margin = new System.Windows.Forms.Padding(4);
             this.continuepage2.Name = "continuepage2";
-            this.continuepage2.Size = new System.Drawing.Size(311, 37);
+            this.continuepage2.Size = new System.Drawing.Size(152, 37);
             this.continuepage2.TabIndex = 0;
-            this.continuepage2.Text = "Continue to Second Page";
+            this.continuepage2.Text = "Next Page";
             this.continuepage2.UseVisualStyleBackColor = false;
+            this.continuepage2.Visible = false;
             this.continuepage2.Click += new System.EventHandler(this.continuepage2_Click);
             // 
             // back3
@@ -74,131 +90,216 @@ namespace Human_FitnessProject
             this.back3.UseVisualStyleBackColor = false;
             this.back3.Click += new System.EventHandler(this.back3_Click);
             // 
-            // CheckBox6
+            // yesButton1
             // 
-            this.CheckBox6.Location = new System.Drawing.Point(69, 319);
-            this.CheckBox6.Name = "CheckBox6";
-            this.CheckBox6.Size = new System.Drawing.Size(14, 16);
-            this.CheckBox6.TabIndex = 2;
-            this.CheckBox6.Text = "checkBox1";
-            this.CheckBox6.UseVisualStyleBackColor = true;
+            this.yesButton1.Location = new System.Drawing.Point(0, 0);
+            this.yesButton1.Name = "yesButton1";
+            this.yesButton1.Size = new System.Drawing.Size(14, 14);
+            this.yesButton1.TabIndex = 2;
+            this.yesButton1.TabStop = true;
+            this.yesButton1.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // noButton1
             // 
-            this.checkBox7.Location = new System.Drawing.Point(69, 332);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(14, 16);
-            this.checkBox7.TabIndex = 3;
-            this.checkBox7.Text = "checkBox1";
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.noButton1.Location = new System.Drawing.Point(0, 20);
+            this.noButton1.Name = "noButton1";
+            this.noButton1.Size = new System.Drawing.Size(14, 14);
+            this.noButton1.TabIndex = 3;
+            this.noButton1.TabStop = true;
+            this.noButton1.UseVisualStyleBackColor = true;
             // 
-            // checkBox8
+            // groupBox1
             // 
-            this.checkBox8.Location = new System.Drawing.Point(69, 367);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(14, 16);
-            this.checkBox8.TabIndex = 4;
-            this.checkBox8.Text = "checkBox1";
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.groupBox1.Controls.Add(this.yesButton1);
+            this.groupBox1.Controls.Add(this.noButton1);
+            this.groupBox1.Location = new System.Drawing.Point(69, 316);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(15, 34);
+            this.groupBox1.TabIndex = 4;
+            this.groupBox1.TabStop = false;
             // 
-            // checkBox9
+            // groupBox2
             // 
-            this.checkBox9.Location = new System.Drawing.Point(69, 379);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(14, 16);
-            this.checkBox9.TabIndex = 5;
-            this.checkBox9.Text = "checkBox1";
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.groupBox2.Controls.Add(this.yesButton2);
+            this.groupBox2.Controls.Add(this.noButton2);
+            this.groupBox2.Location = new System.Drawing.Point(68, 367);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(15, 34);
+            this.groupBox2.TabIndex = 5;
+            this.groupBox2.TabStop = false;
             // 
-            // checkBox11
+            // yesButton2
             // 
-            this.checkBox11.Location = new System.Drawing.Point(69, 431);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(14, 16);
-            this.checkBox11.TabIndex = 6;
-            this.checkBox11.Text = "checkBox1";
-            this.checkBox11.UseVisualStyleBackColor = true;
+            this.yesButton2.Location = new System.Drawing.Point(0, 0);
+            this.yesButton2.Name = "yesButton2";
+            this.yesButton2.Size = new System.Drawing.Size(14, 14);
+            this.yesButton2.TabIndex = 2;
+            this.yesButton2.TabStop = true;
+            this.yesButton2.UseVisualStyleBackColor = true;
             // 
-            // checkBox12
+            // noButton2
             // 
-            this.checkBox12.Location = new System.Drawing.Point(69, 444);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(14, 16);
-            this.checkBox12.TabIndex = 7;
-            this.checkBox12.Text = "checkBox1";
-            this.checkBox12.UseVisualStyleBackColor = true;
+            this.noButton2.Location = new System.Drawing.Point(0, 20);
+            this.noButton2.Name = "noButton2";
+            this.noButton2.Size = new System.Drawing.Size(14, 14);
+            this.noButton2.TabIndex = 3;
+            this.noButton2.TabStop = true;
+            this.noButton2.UseVisualStyleBackColor = true;
             // 
-            // checkBox13
+            // groupBox3
             // 
-            this.checkBox13.Location = new System.Drawing.Point(69, 492);
-            this.checkBox13.Name = "checkBox13";
-            this.checkBox13.Size = new System.Drawing.Size(14, 16);
-            this.checkBox13.TabIndex = 8;
-            this.checkBox13.Text = "checkBox1";
-            this.checkBox13.UseVisualStyleBackColor = true;
+            this.groupBox3.Controls.Add(this.yesButton3);
+            this.groupBox3.Controls.Add(this.noButton3);
+            this.groupBox3.Location = new System.Drawing.Point(67, 429);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(15, 34);
+            this.groupBox3.TabIndex = 6;
+            this.groupBox3.TabStop = false;
             // 
-            // checkBox14
+            // yesButton3
             // 
-            this.checkBox14.Location = new System.Drawing.Point(69, 505);
-            this.checkBox14.Name = "checkBox14";
-            this.checkBox14.Size = new System.Drawing.Size(14, 16);
-            this.checkBox14.TabIndex = 9;
-            this.checkBox14.Text = "checkBox1";
-            this.checkBox14.UseVisualStyleBackColor = true;
+            this.yesButton3.Location = new System.Drawing.Point(0, 0);
+            this.yesButton3.Name = "yesButton3";
+            this.yesButton3.Size = new System.Drawing.Size(14, 14);
+            this.yesButton3.TabIndex = 2;
+            this.yesButton3.TabStop = true;
+            this.yesButton3.UseVisualStyleBackColor = true;
+            this.yesButton3.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
-            // checkBox15
+            // noButton3
             // 
-            this.checkBox15.Location = new System.Drawing.Point(69, 556);
-            this.checkBox15.Name = "checkBox15";
-            this.checkBox15.Size = new System.Drawing.Size(14, 16);
-            this.checkBox15.TabIndex = 10;
-            this.checkBox15.Text = "checkBox1";
-            this.checkBox15.UseVisualStyleBackColor = true;
+            this.noButton3.Location = new System.Drawing.Point(0, 20);
+            this.noButton3.Name = "noButton3";
+            this.noButton3.Size = new System.Drawing.Size(14, 14);
+            this.noButton3.TabIndex = 3;
+            this.noButton3.TabStop = true;
+            this.noButton3.UseVisualStyleBackColor = true;
             // 
-            // checkBox16
+            // groupBox4
             // 
-            this.checkBox16.Location = new System.Drawing.Point(69, 569);
-            this.checkBox16.Name = "checkBox16";
-            this.checkBox16.Size = new System.Drawing.Size(14, 16);
-            this.checkBox16.TabIndex = 11;
-            this.checkBox16.Text = "checkBox1";
-            this.checkBox16.UseVisualStyleBackColor = true;
+            this.groupBox4.Controls.Add(this.yesButton4);
+            this.groupBox4.Controls.Add(this.noButton4);
+            this.groupBox4.Location = new System.Drawing.Point(69, 492);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(15, 34);
+            this.groupBox4.TabIndex = 7;
+            this.groupBox4.TabStop = false;
             // 
-            // checkBox17
+            // yesButton4
             // 
-            this.checkBox17.Location = new System.Drawing.Point(69, 615);
-            this.checkBox17.Name = "checkBox17";
-            this.checkBox17.Size = new System.Drawing.Size(14, 16);
-            this.checkBox17.TabIndex = 12;
-            this.checkBox17.Text = "checkBox1";
-            this.checkBox17.UseVisualStyleBackColor = true;
+            this.yesButton4.Location = new System.Drawing.Point(0, 0);
+            this.yesButton4.Name = "yesButton4";
+            this.yesButton4.Size = new System.Drawing.Size(14, 14);
+            this.yesButton4.TabIndex = 2;
+            this.yesButton4.TabStop = true;
+            this.yesButton4.UseVisualStyleBackColor = true;
             // 
-            // checkBox18
+            // noButton4
             // 
-            this.checkBox18.Location = new System.Drawing.Point(69, 628);
-            this.checkBox18.Name = "checkBox18";
-            this.checkBox18.Size = new System.Drawing.Size(14, 16);
-            this.checkBox18.TabIndex = 13;
-            this.checkBox18.Text = "checkBox1";
-            this.checkBox18.UseVisualStyleBackColor = true;
+            this.noButton4.Location = new System.Drawing.Point(0, 20);
+            this.noButton4.Name = "noButton4";
+            this.noButton4.Size = new System.Drawing.Size(14, 14);
+            this.noButton4.TabIndex = 3;
+            this.noButton4.TabStop = true;
+            this.noButton4.UseVisualStyleBackColor = true;
             // 
-            // checkBox19
+            // groupBox5
             // 
-            this.checkBox19.Location = new System.Drawing.Point(69, 669);
-            this.checkBox19.Name = "checkBox19";
-            this.checkBox19.Size = new System.Drawing.Size(14, 16);
-            this.checkBox19.TabIndex = 14;
-            this.checkBox19.Text = "checkBox1";
-            this.checkBox19.UseVisualStyleBackColor = true;
+            this.groupBox5.Controls.Add(this.yesButton5);
+            this.groupBox5.Controls.Add(this.noButton5);
+            this.groupBox5.Location = new System.Drawing.Point(69, 555);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(15, 34);
+            this.groupBox5.TabIndex = 8;
+            this.groupBox5.TabStop = false;
             // 
-            // checkBox20
+            // yesButton5
             // 
-            this.checkBox20.Location = new System.Drawing.Point(69, 682);
-            this.checkBox20.Name = "checkBox20";
-            this.checkBox20.Size = new System.Drawing.Size(14, 16);
-            this.checkBox20.TabIndex = 15;
-            this.checkBox20.Text = "checkBox1";
-            this.checkBox20.UseVisualStyleBackColor = true;
+            this.yesButton5.Location = new System.Drawing.Point(0, 0);
+            this.yesButton5.Name = "yesButton5";
+            this.yesButton5.Size = new System.Drawing.Size(14, 14);
+            this.yesButton5.TabIndex = 2;
+            this.yesButton5.TabStop = true;
+            this.yesButton5.UseVisualStyleBackColor = true;
+            // 
+            // noButton5
+            // 
+            this.noButton5.Location = new System.Drawing.Point(0, 20);
+            this.noButton5.Name = "noButton5";
+            this.noButton5.Size = new System.Drawing.Size(14, 14);
+            this.noButton5.TabIndex = 3;
+            this.noButton5.TabStop = true;
+            this.noButton5.UseVisualStyleBackColor = true;
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.yesButton6);
+            this.groupBox6.Controls.Add(this.noButton6);
+            this.groupBox6.Location = new System.Drawing.Point(68, 617);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(15, 34);
+            this.groupBox6.TabIndex = 7;
+            this.groupBox6.TabStop = false;
+            // 
+            // yesButton6
+            // 
+            this.yesButton6.Location = new System.Drawing.Point(0, 0);
+            this.yesButton6.Name = "yesButton6";
+            this.yesButton6.Size = new System.Drawing.Size(14, 14);
+            this.yesButton6.TabIndex = 2;
+            this.yesButton6.TabStop = true;
+            this.yesButton6.UseVisualStyleBackColor = true;
+            // 
+            // noButton6
+            // 
+            this.noButton6.Location = new System.Drawing.Point(0, 20);
+            this.noButton6.Name = "noButton6";
+            this.noButton6.Size = new System.Drawing.Size(14, 14);
+            this.noButton6.TabIndex = 3;
+            this.noButton6.TabStop = true;
+            this.noButton6.UseVisualStyleBackColor = true;
+            // 
+            // groupBox7
+            // 
+            this.groupBox7.Controls.Add(this.yesButton7);
+            this.groupBox7.Controls.Add(this.noButton7);
+            this.groupBox7.Location = new System.Drawing.Point(69, 668);
+            this.groupBox7.Name = "groupBox7";
+            this.groupBox7.Size = new System.Drawing.Size(15, 34);
+            this.groupBox7.TabIndex = 8;
+            this.groupBox7.TabStop = false;
+            // 
+            // yesButton7
+            // 
+            this.yesButton7.Location = new System.Drawing.Point(0, 0);
+            this.yesButton7.Name = "yesButton7";
+            this.yesButton7.Size = new System.Drawing.Size(14, 14);
+            this.yesButton7.TabIndex = 2;
+            this.yesButton7.TabStop = true;
+            this.yesButton7.UseVisualStyleBackColor = true;
+            // 
+            // noButton7
+            // 
+            this.noButton7.Location = new System.Drawing.Point(0, 20);
+            this.noButton7.Name = "noButton7";
+            this.noButton7.Size = new System.Drawing.Size(14, 14);
+            this.noButton7.TabIndex = 3;
+            this.noButton7.TabStop = true;
+            this.noButton7.UseVisualStyleBackColor = true;
+            // 
+            // saveButton
+            // 
+            this.saveButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.saveButton.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.saveButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.saveButton.Location = new System.Drawing.Point(225, 773);
+            this.saveButton.Margin = new System.Windows.Forms.Padding(4);
+            this.saveButton.Name = "saveButton";
+            this.saveButton.Size = new System.Drawing.Size(152, 37);
+            this.saveButton.TabIndex = 9;
+            this.saveButton.Text = "Save";
+            this.saveButton.UseVisualStyleBackColor = false;
+            this.saveButton.Click += new System.EventHandler(this.saveButton_Click);
             // 
             // parQ1form
             // 
@@ -208,20 +309,14 @@ namespace Human_FitnessProject
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(549, 808);
             this.ControlBox = false;
-            this.Controls.Add(this.checkBox20);
-            this.Controls.Add(this.checkBox19);
-            this.Controls.Add(this.checkBox18);
-            this.Controls.Add(this.checkBox17);
-            this.Controls.Add(this.checkBox16);
-            this.Controls.Add(this.checkBox15);
-            this.Controls.Add(this.checkBox14);
-            this.Controls.Add(this.checkBox13);
-            this.Controls.Add(this.checkBox12);
-            this.Controls.Add(this.checkBox11);
-            this.Controls.Add(this.checkBox9);
-            this.Controls.Add(this.checkBox8);
-            this.Controls.Add(this.checkBox7);
-            this.Controls.Add(this.CheckBox6);
+            this.Controls.Add(this.saveButton);
+            this.Controls.Add(this.groupBox7);
+            this.Controls.Add(this.groupBox6);
+            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.back3);
             this.Controls.Add(this.continuepage2);
             this.DoubleBuffered = true;
@@ -234,6 +329,13 @@ namespace Human_FitnessProject
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ParQ and You Page 1";
             this.Load += new System.EventHandler(this.parQ1form_Load);
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox7.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -242,19 +344,27 @@ namespace Human_FitnessProject
 
         private System.Windows.Forms.Button continuepage2;
         private System.Windows.Forms.Button back3;
-        private System.Windows.Forms.CheckBox CheckBox6;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.CheckBox checkBox12;
-        private System.Windows.Forms.CheckBox checkBox13;
-        private System.Windows.Forms.CheckBox checkBox14;
-        private System.Windows.Forms.CheckBox checkBox15;
-        private System.Windows.Forms.CheckBox checkBox16;
-        private System.Windows.Forms.CheckBox checkBox17;
-        private System.Windows.Forms.CheckBox checkBox18;
-        private System.Windows.Forms.CheckBox checkBox19;
-        private System.Windows.Forms.CheckBox checkBox20;
+        private System.Windows.Forms.RadioButton yesButton1;
+        private System.Windows.Forms.RadioButton noButton1;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.RadioButton yesButton2;
+        private System.Windows.Forms.RadioButton noButton2;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.RadioButton yesButton3;
+        private System.Windows.Forms.RadioButton noButton3;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.RadioButton yesButton4;
+        private System.Windows.Forms.RadioButton noButton4;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.RadioButton yesButton5;
+        private System.Windows.Forms.RadioButton noButton5;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.RadioButton yesButton6;
+        private System.Windows.Forms.RadioButton noButton6;
+        private System.Windows.Forms.GroupBox groupBox7;
+        private System.Windows.Forms.RadioButton yesButton7;
+        private System.Windows.Forms.RadioButton noButton7;
+        private System.Windows.Forms.Button saveButton;
     }
 }
