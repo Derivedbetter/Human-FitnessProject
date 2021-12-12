@@ -29,6 +29,7 @@ namespace Human_FitnessProject
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(parQ1form));
             this.continuepage2 = new System.Windows.Forms.Button();
             this.back3 = new System.Windows.Forms.Button();
             this.yesButton1 = new System.Windows.Forms.RadioButton();
@@ -64,6 +65,7 @@ namespace Human_FitnessProject
             // 
             // continuepage2
             // 
+            this.continuepage2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.continuepage2.BackColor = System.Drawing.SystemColors.HotTrack;
             this.continuepage2.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.continuepage2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -79,6 +81,7 @@ namespace Human_FitnessProject
             // 
             // back3
             // 
+            this.back3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.back3.BackColor = System.Drawing.Color.Red;
             this.back3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.back3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -110,6 +113,9 @@ namespace Human_FitnessProject
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.yesButton1);
             this.groupBox1.Controls.Add(this.noButton1);
             this.groupBox1.Location = new System.Drawing.Point(69, 316);
@@ -120,6 +126,9 @@ namespace Human_FitnessProject
             // 
             // groupBox2
             // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.yesButton2);
             this.groupBox2.Controls.Add(this.noButton2);
             this.groupBox2.Location = new System.Drawing.Point(68, 367);
@@ -148,6 +157,9 @@ namespace Human_FitnessProject
             // 
             // groupBox3
             // 
+            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox3.Controls.Add(this.yesButton3);
             this.groupBox3.Controls.Add(this.noButton3);
             this.groupBox3.Location = new System.Drawing.Point(67, 429);
@@ -177,6 +189,9 @@ namespace Human_FitnessProject
             // 
             // groupBox4
             // 
+            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox4.Controls.Add(this.yesButton4);
             this.groupBox4.Controls.Add(this.noButton4);
             this.groupBox4.Location = new System.Drawing.Point(69, 492);
@@ -205,6 +220,9 @@ namespace Human_FitnessProject
             // 
             // groupBox5
             // 
+            this.groupBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox5.Controls.Add(this.yesButton5);
             this.groupBox5.Controls.Add(this.noButton5);
             this.groupBox5.Location = new System.Drawing.Point(69, 555);
@@ -233,6 +251,9 @@ namespace Human_FitnessProject
             // 
             // groupBox6
             // 
+            this.groupBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox6.Controls.Add(this.yesButton6);
             this.groupBox6.Controls.Add(this.noButton6);
             this.groupBox6.Location = new System.Drawing.Point(68, 617);
@@ -261,6 +282,9 @@ namespace Human_FitnessProject
             // 
             // groupBox7
             // 
+            this.groupBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox7.Controls.Add(this.yesButton7);
             this.groupBox7.Controls.Add(this.noButton7);
             this.groupBox7.Location = new System.Drawing.Point(69, 668);
@@ -289,6 +313,8 @@ namespace Human_FitnessProject
             // 
             // saveButton
             // 
+            this.saveButton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.saveButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.saveButton.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.saveButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -303,12 +329,12 @@ namespace Human_FitnessProject
             // 
             // parQ1form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(15F, 33F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = global::Human_FitnessProject.Properties.Resources.ParQpage1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(549, 808);
-            this.ControlBox = false;
             this.Controls.Add(this.saveButton);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox6);
@@ -322,9 +348,10 @@ namespace Human_FitnessProject
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(575, 1770);
+            this.MaximumSize = new System.Drawing.Size(1170, 1170);
             this.Name = "parQ1form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ParQ and You Page 1";

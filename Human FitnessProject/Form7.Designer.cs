@@ -34,7 +34,6 @@ namespace Human_FitnessProject
             this.goalsclickLabel = new System.Windows.Forms.Label();
             this.backtoparqButton = new System.Windows.Forms.Button();
             this.schedapptButton = new System.Windows.Forms.Button();
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.goalsLabel = new System.Windows.Forms.Label();
             this.mot1Timer = new System.Windows.Forms.Timer(this.components);
             this.mot2Timer = new System.Windows.Forms.Timer(this.components);
@@ -60,20 +59,24 @@ namespace Human_FitnessProject
             // 
             // goalsclickLabel
             // 
+            this.goalsclickLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.goalsclickLabel.AutoSize = true;
-            this.goalsclickLabel.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.goalsclickLabel.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.goalsclickLabel.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.goalsclickLabel.Location = new System.Drawing.Point(583, 496);
+            this.goalsclickLabel.Location = new System.Drawing.Point(553, 490);
             this.goalsclickLabel.Name = "goalsclickLabel";
-            this.goalsclickLabel.Size = new System.Drawing.Size(313, 33);
+            this.goalsclickLabel.Size = new System.Drawing.Size(277, 28);
             this.goalsclickLabel.TabIndex = 40;
             this.goalsclickLabel.Text = "Click on the Form to Fill it out";
             this.goalsclickLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // backtoparqButton
             // 
+            this.backtoparqButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.backtoparqButton.BackColor = System.Drawing.Color.Red;
-            this.backtoparqButton.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backtoparqButton.Font = new System.Drawing.Font("Monotype Corsiva", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backtoparqButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.backtoparqButton.Location = new System.Drawing.Point(40, 580);
             this.backtoparqButton.Name = "backtoparqButton";
@@ -85,8 +88,9 @@ namespace Human_FitnessProject
             // 
             // schedapptButton
             // 
+            this.schedapptButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.schedapptButton.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.schedapptButton.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.schedapptButton.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.schedapptButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.schedapptButton.Location = new System.Drawing.Point(977, 579);
             this.schedapptButton.Name = "schedapptButton";
@@ -95,21 +99,16 @@ namespace Human_FitnessProject
             this.schedapptButton.Text = "Schedule Appointment";
             this.schedapptButton.UseVisualStyleBackColor = false;
             // 
-            // progressBar1
-            // 
-            this.progressBar1.Location = new System.Drawing.Point(454, 98);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(472, 39);
-            this.progressBar1.TabIndex = 35;
-            // 
             // goalsLabel
             // 
+            this.goalsLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.goalsLabel.AutoSize = true;
-            this.goalsLabel.Font = new System.Drawing.Font("Monotype Corsiva", 22.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.goalsLabel.Font = new System.Drawing.Font("Monotype Corsiva", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.goalsLabel.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.goalsLabel.Location = new System.Drawing.Point(345, 12);
             this.goalsLabel.Name = "goalsLabel";
-            this.goalsLabel.Size = new System.Drawing.Size(678, 71);
+            this.goalsLabel.Size = new System.Drawing.Size(471, 49);
             this.goalsLabel.TabIndex = 34;
             this.goalsLabel.Text = "What! You Made it to Goals!\r\n";
             this.goalsLabel.Click += new System.EventHandler(this.goalsLabel_Click);
@@ -164,7 +163,7 @@ namespace Human_FitnessProject
             // bmiButton
             // 
             this.bmiButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.bmiButton.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bmiButton.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bmiButton.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.bmiButton.Location = new System.Drawing.Point(14, 364);
             this.bmiButton.Name = "bmiButton";
@@ -176,12 +175,14 @@ namespace Human_FitnessProject
             // 
             // explainLabel
             // 
+            this.explainLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
             this.explainLabel.AutoSize = true;
-            this.explainLabel.Font = new System.Drawing.Font("Monotype Corsiva", 16.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.explainLabel.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.explainLabel.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.explainLabel.Location = new System.Drawing.Point(-5, 0);
             this.explainLabel.Name = "explainLabel";
-            this.explainLabel.Size = new System.Drawing.Size(807, 572);
+            this.explainLabel.Size = new System.Drawing.Size(453, 308);
             this.explainLabel.TabIndex = 0;
             this.explainLabel.Text = resources.GetString("explainLabel.Text");
             this.explainLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -189,6 +190,7 @@ namespace Human_FitnessProject
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = global::Human_FitnessProject.Properties.Resources.BMI;
             this.pictureBox1.Location = new System.Drawing.Point(960, 157);
             this.pictureBox1.Name = "pictureBox1";
@@ -200,6 +202,9 @@ namespace Human_FitnessProject
             // 
             // sawgrassBox
             // 
+            this.sawgrassBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.sawgrassBox.Image = global::Human_FitnessProject.Properties.Resources.Sawgrass_Health___Fitness_Photo_4_Fitness_Interior;
             this.sawgrassBox.Location = new System.Drawing.Point(909, 358);
             this.sawgrassBox.Name = "sawgrassBox";
@@ -210,6 +215,9 @@ namespace Human_FitnessProject
             // 
             // goalsBox
             // 
+            this.goalsBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.goalsBox.Image = global::Human_FitnessProject.Properties.Resources.goalsform;
             this.goalsBox.Location = new System.Drawing.Point(567, 143);
             this.goalsBox.Name = "goalsBox";
@@ -217,9 +225,11 @@ namespace Human_FitnessProject
             this.goalsBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.goalsBox.TabIndex = 32;
             this.goalsBox.TabStop = false;
+            this.goalsBox.Click += new System.EventHandler(this.goalsBox_Click);
             // 
             // squareLogo2
             // 
+            this.squareLogo2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.squareLogo2.Image = global::Human_FitnessProject.Properties.Resources.Color_logo_with_background;
             this.squareLogo2.Location = new System.Drawing.Point(1200, 12);
             this.squareLogo2.Name = "squareLogo2";
@@ -230,6 +240,8 @@ namespace Human_FitnessProject
             // 
             // longLogo
             // 
+            this.longLogo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.longLogo.Image = ((System.Drawing.Image)(resources.GetObject("longLogo.Image")));
             this.longLogo.Location = new System.Drawing.Point(454, 532);
             this.longLogo.Name = "longLogo";
@@ -250,27 +262,23 @@ namespace Human_FitnessProject
             // 
             // goalsForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1359, 634);
-            this.ControlBox = false;
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.bmiPanel);
             this.Controls.Add(this.sawgrassBox);
             this.Controls.Add(this.goalsclickLabel);
             this.Controls.Add(this.backtoparqButton);
             this.Controls.Add(this.schedapptButton);
-            this.Controls.Add(this.progressBar1);
             this.Controls.Add(this.goalsLabel);
             this.Controls.Add(this.goalsBox);
             this.Controls.Add(this.squareLogo2);
             this.Controls.Add(this.longLogo);
             this.Controls.Add(this.squareLogo);
             this.Font = new System.Drawing.Font("Monotype Corsiva", 7.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1385, 705);
-            this.MinimizeBox = false;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "goalsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Let\'s Talk about Your goals!";
@@ -292,7 +300,6 @@ namespace Human_FitnessProject
         private System.Windows.Forms.Label goalsclickLabel;
         private System.Windows.Forms.Button backtoparqButton;
         private System.Windows.Forms.Button schedapptButton;
-        private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Label goalsLabel;
         private System.Windows.Forms.PictureBox goalsBox;
         private System.Windows.Forms.PictureBox squareLogo2;

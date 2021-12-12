@@ -15,13 +15,15 @@ namespace Human_FitnessProject
     public partial class intake : Form
     {
         //Initial variable declarations.
-        int clientAge1;
         int clientWeight1;
         int clientHeight1;
                 
         public intake()
         {
+            
             InitializeComponent();
+            nameBox.Focus();
+
         }
 
         private void backbutton_Click(object sender, EventArgs e)
@@ -79,15 +81,7 @@ namespace Human_FitnessProject
 
         private void nextButton_Click(object sender, EventArgs e)
         {
-            //Check status of boxes filled.
-            if (int.TryParse(ageBox.Text, out clientAge1))
-            { }
-            else
-            {
-                MessageBox.Show("Please type in a valid age!");
-            }
-
-
+            
             if (String.IsNullOrEmpty(nameBox.Text))
             {
                 MessageBox.Show("Did you forget your name? Please type in your name!");
@@ -121,7 +115,8 @@ namespace Human_FitnessProject
             string fullName = nameBox.Text;
             string email = emailBox.Text;
             string phoneNumber = phoneNumberBox.Text;
-            string age = ageBox.Text;
+            int age = DateTime.Today.Year - dateOfBirthPicker.Value.Year;
+            string clientAge = age.ToString();
             string clientWeight = weightBox.Text;
             string clientHeight = heightBox.Text;
             string gender = genderBox.Text;
@@ -132,7 +127,7 @@ namespace Human_FitnessProject
             outputFile.WriteLine("Client Full Name:");
             outputFile.WriteLine(fullName);
             outputFile.WriteLine("Client Age:");
-            outputFile.WriteLine(age);
+            outputFile.WriteLine(clientAge);
             string birthdate = dateOfBirthPicker.Value.ToString();
             outputFile.WriteLine("Client Date of Birth: " + birthdate);
             outputFile.WriteLine("Client Weight in lbs:");
@@ -195,24 +190,29 @@ namespace Human_FitnessProject
             }
 
 
-            //Check status of ageBox.
-            if (int.TryParse(ageBox.Text, out clientAge1))
-            { }
-            else
-            {
-                MessageBox.Show("Please type in a valid age!");
-            }
-
+            //Check status of nameBox.
+            
             if  (String.IsNullOrEmpty(nameBox.Text))
             {
                 MessageBox.Show("Did you forget your name? Please type in your name!");
             }
 
+            //Check validity of birthdate.
+            if (dateOfBirthPicker.Value.Year > 2007)
+            {
+                MessageBox.Show("Invalid Age! You are not old enough to train with us." +
+                    " If this is a mistake please enter a valid age."
+                    , "Invalid", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                dateOfBirthPicker.Focus();
+            }
+            else weightBox.Visible = true;
+
             //Variable declarations for StreamWriter.
             string fullName = nameBox.Text;
             string email = emailBox.Text;
             string phoneNumber = phoneNumberBox.Text;
-            string age = ageBox.Text;            
+            int age = DateTime.Today.Year - dateOfBirthPicker.Value.Year;
+            string clientAge = age.ToString();
             string clientWeight = weightBox.Text;
             string clientHeight = heightBox.Text;
             string gender = genderBox.Text;
@@ -244,15 +244,6 @@ namespace Human_FitnessProject
         //Check status of boxes filled.
         private void save2_Click(object sender, EventArgs e)
         {
-            
-            if (int.TryParse(ageBox.Text, out clientAge1))
-            { }
-            else
-            {
-                MessageBox.Show("Please type in a valid age!");
-            }
-
-
             if (String.IsNullOrEmpty(nameBox.Text))
             {
                 MessageBox.Show("Did you forget your name? Please type in your name!");
@@ -287,7 +278,8 @@ namespace Human_FitnessProject
             string fullName = nameBox.Text;
             string email = emailBox.Text;
             string phoneNumber = phoneNumberBox.Text;
-            string age = ageBox.Text;
+            int age = DateTime.Today.Year - dateOfBirthPicker.Value.Year;
+            string clientAge = age.ToString();
             string clientWeight = weightBox.Text;
             string clientHeight = heightBox.Text;
             string gender = genderBox.Text;
@@ -298,7 +290,7 @@ namespace Human_FitnessProject
             outputFile.WriteLine("Client Full Name:");
             outputFile.WriteLine(fullName);
             outputFile.WriteLine("Client Age:");
-            outputFile.WriteLine(age);
+            outputFile.WriteLine(clientAge);
             string birthdate = dateOfBirthPicker.Value.ToString();
             outputFile.WriteLine("Client Date of Birth: " + birthdate);
             outputFile.WriteLine("Client Weight in lbs:");
@@ -320,11 +312,12 @@ namespace Human_FitnessProject
         private void nameBox_TextChanged(object sender, EventArgs e)
         {
             emailBox.Visible = true;
+            
         }
 
         private void dobBox_TextChanged(object sender, EventArgs e)
         {
-            weightBox.Visible = true;
+            
         }
 
         private void genderBox_TextChanged(object sender, EventArgs e)
@@ -335,7 +328,7 @@ namespace Human_FitnessProject
 
         public void dateOfBirthPicker_ValueChanged(object sender, EventArgs e)
         { 
-        weightBox.Visible = true;
+        
         }
 
         private void toolTip1_Popup(object sender, PopupEventArgs e)
@@ -355,7 +348,7 @@ namespace Human_FitnessProject
 
         private void phoneNumberBox_TextChanged(object sender, EventArgs e)
         {
-            ageBox.Visible = true;
+            dateOfBirthPicker.Visible = true;
         }
     }
 

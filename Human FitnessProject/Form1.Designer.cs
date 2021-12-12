@@ -53,94 +53,102 @@ namespace Human_FitnessProject
             // 
             // welcomeLabel
             // 
+            this.welcomeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.welcomeLabel.AutoSize = true;
-            this.welcomeLabel.Font = new System.Drawing.Font("Monotype Corsiva", 14F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.welcomeLabel.Font = new System.Drawing.Font("Monotype Corsiva", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.welcomeLabel.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.welcomeLabel.Location = new System.Drawing.Point(429, 32);
+            this.welcomeLabel.Location = new System.Drawing.Point(472, 72);
             this.welcomeLabel.Name = "welcomeLabel";
-            this.welcomeLabel.Size = new System.Drawing.Size(550, 46);
+            this.welcomeLabel.Size = new System.Drawing.Size(441, 37);
             this.welcomeLabel.TabIndex = 3;
             this.welcomeLabel.Text = "Welcome to the Human Fitness Project!";
             // 
             // startLabel
             // 
+            this.startLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.startLabel.AutoSize = true;
-            this.startLabel.Font = new System.Drawing.Font("Monotype Corsiva", 14F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.startLabel.Font = new System.Drawing.Font("Monotype Corsiva", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.startLabel.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.startLabel.Location = new System.Drawing.Point(405, 76);
+            this.startLabel.Location = new System.Drawing.Point(446, 109);
             this.startLabel.Name = "startLabel";
-            this.startLabel.Size = new System.Drawing.Size(602, 46);
+            this.startLabel.Size = new System.Drawing.Size(489, 37);
             this.startLabel.TabIndex = 4;
             this.startLabel.Text = "Are you ready to begin your fitness Journey?";
             // 
             // enterAnswer
             // 
+            this.enterAnswer.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.enterAnswer.AutoSize = true;
-            this.enterAnswer.Font = new System.Drawing.Font("Monotype Corsiva", 14F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.enterAnswer.Font = new System.Drawing.Font("Monotype Corsiva", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.enterAnswer.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.enterAnswer.Location = new System.Drawing.Point(234, 120);
+            this.enterAnswer.Location = new System.Drawing.Point(292, 146);
             this.enterAnswer.Name = "enterAnswer";
-            this.enterAnswer.Size = new System.Drawing.Size(976, 46);
+            this.enterAnswer.Size = new System.Drawing.Size(789, 37);
             this.enterAnswer.TabIndex = 6;
             this.enterAnswer.Text = "The choice is yours... maximize your fitness potential or remain the same.";
             // 
             // sameGuy
             // 
+            this.sameGuy.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.sameGuy.AutoSize = true;
-            this.sameGuy.Font = new System.Drawing.Font("Monotype Corsiva", 10F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sameGuy.Font = new System.Drawing.Font("Monotype Corsiva", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sameGuy.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.sameGuy.Location = new System.Drawing.Point(355, 338);
+            this.sameGuy.Location = new System.Drawing.Point(35, 305);
             this.sameGuy.Name = "sameGuy";
-            this.sameGuy.Size = new System.Drawing.Size(110, 33);
+            this.sameGuy.Size = new System.Drawing.Size(114, 34);
             this.sameGuy.TabIndex = 8;
             this.sameGuy.Text = "Same Guy";
             // 
             // sameShirt
             // 
+            this.sameShirt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.sameShirt.AutoSize = true;
-            this.sameShirt.Font = new System.Drawing.Font("Monotype Corsiva", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sameShirt.Font = new System.Drawing.Font("Monotype Corsiva", 16.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sameShirt.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.sameShirt.Location = new System.Drawing.Point(354, 379);
+            this.sameShirt.Location = new System.Drawing.Point(185, 305);
             this.sameShirt.Name = "sameShirt";
-            this.sameShirt.Size = new System.Drawing.Size(140, 39);
+            this.sameShirt.Size = new System.Drawing.Size(122, 34);
             this.sameShirt.TabIndex = 9;
             this.sameShirt.Text = "Same Shirt";
             // 
             // difMan
             // 
+            this.difMan.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.difMan.AutoSize = true;
-            this.difMan.Font = new System.Drawing.Font("Monotype Corsiva", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.difMan.Font = new System.Drawing.Font("Monotype Corsiva", 16.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.difMan.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.difMan.Location = new System.Drawing.Point(353, 428);
+            this.difMan.Location = new System.Drawing.Point(335, 342);
             this.difMan.Name = "difMan";
-            this.difMan.Size = new System.Drawing.Size(382, 46);
+            this.difMan.Size = new System.Drawing.Size(292, 34);
             this.difMan.TabIndex = 10;
             this.difMan.Text = "Totally Different Person!";
             // 
             // couldbeYou
             // 
+            this.couldbeYou.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.couldbeYou.AutoSize = true;
             this.couldbeYou.Font = new System.Drawing.Font("Monotype Corsiva", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.couldbeYou.ForeColor = System.Drawing.Color.Crimson;
-            this.couldbeYou.Location = new System.Drawing.Point(352, 472);
+            this.couldbeYou.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.couldbeYou.Location = new System.Drawing.Point(352, 379);
             this.couldbeYou.Name = "couldbeYou";
-            this.couldbeYou.Size = new System.Drawing.Size(357, 52);
+            this.couldbeYou.Size = new System.Drawing.Size(232, 33);
             this.couldbeYou.TabIndex = 11;
             this.couldbeYou.Text = "It\'s Your Turn Now!";
             // 
             // yesButton1
             // 
+            this.yesButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.yesButton1.AutoSize = true;
             this.yesButton1.BackColor = System.Drawing.Color.Black;
             this.yesButton1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Blue;
             this.yesButton1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Lime;
             this.yesButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Lime;
             this.yesButton1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.yesButton1.Font = new System.Drawing.Font("Monotype Corsiva", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.yesButton1.Font = new System.Drawing.Font("Monotype Corsiva", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.yesButton1.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.yesButton1.Location = new System.Drawing.Point(215, 176);
+            this.yesButton1.Location = new System.Drawing.Point(272, 186);
             this.yesButton1.Name = "yesButton1";
-            this.yesButton1.Size = new System.Drawing.Size(1010, 50);
+            this.yesButton1.Size = new System.Drawing.Size(826, 41);
             this.yesButton1.TabIndex = 13;
             this.yesButton1.Text = "Push here to begin your fitness journey and forever change your life!";
             this.yesButton1.UseVisualStyleBackColor = false;
@@ -148,16 +156,17 @@ namespace Human_FitnessProject
             // 
             // noButton
             // 
+            this.noButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.noButton.AutoSize = true;
             this.noButton.FlatAppearance.CheckedBackColor = System.Drawing.Color.Red;
             this.noButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Red;
             this.noButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.noButton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.noButton.Font = new System.Drawing.Font("Segoe Print", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.noButton.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.noButton.ForeColor = System.Drawing.Color.Maroon;
-            this.noButton.Location = new System.Drawing.Point(437, 228);
+            this.noButton.Location = new System.Drawing.Point(599, 243);
             this.noButton.Name = "noButton";
-            this.noButton.Size = new System.Drawing.Size(486, 51);
+            this.noButton.Size = new System.Drawing.Size(355, 39);
             this.noButton.TabIndex = 14;
             this.noButton.Text = "Push here to remain the same...";
             this.noButton.UseVisualStyleBackColor = true;
@@ -165,8 +174,9 @@ namespace Human_FitnessProject
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = global::Human_FitnessProject.Properties.Resources.Cropped_IG1;
-            this.pictureBox1.Location = new System.Drawing.Point(1030, 338);
+            this.pictureBox1.Location = new System.Drawing.Point(1011, 305);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(319, 321);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -175,8 +185,9 @@ namespace Human_FitnessProject
             // 
             // bcpicture
             // 
+            this.bcpicture.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.bcpicture.Image = global::Human_FitnessProject.Properties.Resources.BC;
-            this.bcpicture.Location = new System.Drawing.Point(10, 338);
+            this.bcpicture.Location = new System.Drawing.Point(10, 342);
             this.bcpicture.Name = "bcpicture";
             this.bcpicture.Size = new System.Drawing.Size(319, 321);
             this.bcpicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -185,8 +196,9 @@ namespace Human_FitnessProject
             // 
             // squareLogo2
             // 
+            this.squareLogo2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.squareLogo2.Image = global::Human_FitnessProject.Properties.Resources.Color_logo_with_background;
-            this.squareLogo2.Location = new System.Drawing.Point(1202, 10);
+            this.squareLogo2.Location = new System.Drawing.Point(1185, 10);
             this.squareLogo2.Name = "squareLogo2";
             this.squareLogo2.Size = new System.Drawing.Size(147, 148);
             this.squareLogo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -195,10 +207,12 @@ namespace Human_FitnessProject
             // 
             // longLogo
             // 
+            this.longLogo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.longLogo.Image = ((System.Drawing.Image)(resources.GetObject("longLogo.Image")));
-            this.longLogo.Location = new System.Drawing.Point(481, 543);
+            this.longLogo.Location = new System.Drawing.Point(481, 547);
             this.longLogo.Name = "longLogo";
-            this.longLogo.Size = new System.Drawing.Size(449, 96);
+            this.longLogo.Size = new System.Drawing.Size(432, 96);
             this.longLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.longLogo.TabIndex = 1;
             this.longLogo.TabStop = false;
@@ -215,11 +229,12 @@ namespace Human_FitnessProject
             // 
             // welcomePage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(1359, 634);
-            this.ControlBox = false;
+            this.ClientSize = new System.Drawing.Size(1342, 638);
             this.Controls.Add(this.noButton);
             this.Controls.Add(this.yesButton1);
             this.Controls.Add(this.pictureBox1);
@@ -236,8 +251,8 @@ namespace Human_FitnessProject
             this.Controls.Add(this.squareLogo);
             this.Font = new System.Drawing.Font("Monotype Corsiva", 7.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(1385, 705);
             this.Name = "welcomePage";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Welcome Page";
             this.TransparencyKey = System.Drawing.Color.OldLace;

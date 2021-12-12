@@ -59,6 +59,7 @@ namespace Human_FitnessProject
             clientInfo.Add($"{ clientEmail.ToLower() }");
             this.nameBox.Text = clientInfo[0];
             this.emailBox.Text = clientInfo[2];
+            this.dateBox2.Text = DateTime.Today.ToString("d");
         }
         
     private void button1_Click_1(object sender, EventArgs e)
@@ -79,9 +80,12 @@ namespace Human_FitnessProject
             fields.TryGetValue("Email", out toSet);
             toSet.SetValue($" {emailBox.Text} ");
 
+            fields.TryGetValue("date", out toSet);
+            toSet.SetValue($" {dateBox2.Text} ");
 
 
-            
+
+
             pdf.Close();
 
             //message box to client, readying them for the document being saved.

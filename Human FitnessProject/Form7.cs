@@ -52,13 +52,14 @@ namespace Human_FitnessProject
             int height;
 
             //Gather previous input from text file.
-            StreamReader inputFile;
+            StreamReader inputFile;            
             inputFile = File.OpenText("clientinfo.txt");
+            inputFile.ReadLine();
             fullname = inputFile.ReadLine();            
             inputFile.ReadLine();
-            clientagetext = inputFile.ReadLine();                                  
-            dateofbirth = inputFile.ReadLine();            
-            inputFile.ReadLine();            
+            clientagetext = inputFile.ReadLine();
+            inputFile.ReadLine();
+            dateofbirth = inputFile.ReadLine();                       
             clientweighttext = inputFile.ReadLine();            
             inputFile.ReadLine();
             clientheighttext = inputFile.ReadLine();            
@@ -89,7 +90,10 @@ namespace Human_FitnessProject
             recalcBMIform.Show();
         }
 
-        
+        private void goalsBox_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     }
 

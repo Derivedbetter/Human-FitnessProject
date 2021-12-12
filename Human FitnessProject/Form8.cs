@@ -143,5 +143,10 @@ namespace Human_FitnessProject
             clientWeight = "";
             newweightBox.Focus();
         }
+
+        private void goalsLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

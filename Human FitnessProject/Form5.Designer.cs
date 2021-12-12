@@ -29,15 +29,18 @@ namespace Human_FitnessProject
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(parQ2form));
             this.backtopage1 = new System.Windows.Forms.Button();
             this.submitandforward = new System.Windows.Forms.Button();
             this.nameBox = new System.Windows.Forms.TextBox();
             this.emailBox = new System.Windows.Forms.TextBox();
             this.saveInfo = new System.Windows.Forms.Label();
+            this.dateBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // backtopage1
             // 
+            this.backtopage1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.backtopage1.BackColor = System.Drawing.Color.Red;
             this.backtopage1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backtopage1.ForeColor = System.Drawing.SystemColors.HighlightText;
@@ -52,6 +55,7 @@ namespace Human_FitnessProject
             // 
             // submitandforward
             // 
+            this.submitandforward.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.submitandforward.BackColor = System.Drawing.SystemColors.HotTrack;
             this.submitandforward.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.submitandforward.ForeColor = System.Drawing.SystemColors.HighlightText;
@@ -67,24 +71,31 @@ namespace Human_FitnessProject
             // 
             // nameBox
             // 
+            this.nameBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.nameBox.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nameBox.Location = new System.Drawing.Point(65, 580);
             this.nameBox.MaximumSize = new System.Drawing.Size(300, 20);
             this.nameBox.Name = "nameBox";
-            this.nameBox.Size = new System.Drawing.Size(300, 38);
+            this.nameBox.Size = new System.Drawing.Size(300, 26);
             this.nameBox.TabIndex = 3;
             this.nameBox.TextChanged += new System.EventHandler(this.nameBox_TextChanged);
             // 
             // emailBox
             // 
+            this.emailBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.emailBox.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.emailBox.Location = new System.Drawing.Point(65, 619);
             this.emailBox.Name = "emailBox";
-            this.emailBox.Size = new System.Drawing.Size(331, 38);
+            this.emailBox.Size = new System.Drawing.Size(331, 26);
             this.emailBox.TabIndex = 4;
             // 
             // saveInfo
             // 
+            this.saveInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.saveInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.saveInfo.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.saveInfo.Location = new System.Drawing.Point(341, 724);
@@ -95,14 +106,26 @@ namespace Human_FitnessProject
             this.saveInfo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.saveInfo.Click += new System.EventHandler(this.saveInfo_Click);
             // 
+            // dateBox2
+            // 
+            this.dateBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dateBox2.Location = new System.Drawing.Point(341, 683);
+            this.dateBox2.Name = "dateBox2";
+            this.dateBox2.Size = new System.Drawing.Size(140, 26);
+            this.dateBox2.TabIndex = 8;
+            // 
             // parQ2form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(14F, 33F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoSize = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = global::Human_FitnessProject.Properties.Resources.ParQpage2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(549, 814);
-            this.ControlBox = false;
+            this.Controls.Add(this.dateBox2);
             this.Controls.Add(this.saveInfo);
             this.Controls.Add(this.emailBox);
             this.Controls.Add(this.nameBox);
@@ -111,6 +134,7 @@ namespace Human_FitnessProject
             this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(1170, 1770);
@@ -130,5 +154,6 @@ namespace Human_FitnessProject
         private System.Windows.Forms.TextBox emailBox;
         private System.Windows.Forms.Label saveInfo;
         public System.Windows.Forms.TextBox nameBox;
+        private System.Windows.Forms.TextBox dateBox2;
     }
 }
