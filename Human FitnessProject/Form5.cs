@@ -106,7 +106,7 @@ namespace Human_FitnessProject
             //return to parq and waiver form
             parqandwaiver parqandwaiver = new parqandwaiver();
             this.Hide();
-            parqandwaiver.Show();
+            parqandwaiver.Show();            
         }
 
         private void parQ2form_Load(object sender, EventArgs e)

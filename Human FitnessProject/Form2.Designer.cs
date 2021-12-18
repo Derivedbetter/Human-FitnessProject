@@ -73,11 +73,12 @@ namespace Human_FitnessProject
             this.backbutton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.backbutton.BackColor = System.Drawing.Color.Crimson;
             this.backbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.backbutton.Font = new System.Drawing.Font("Yu Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backbutton.Font = new System.Drawing.Font("Yu Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backbutton.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.backbutton.Location = new System.Drawing.Point(4, 537);
+            this.backbutton.Location = new System.Drawing.Point(10, 898);
+            this.backbutton.Margin = new System.Windows.Forms.Padding(2);
             this.backbutton.Name = "backbutton";
-            this.backbutton.Size = new System.Drawing.Size(165, 37);
+            this.backbutton.Size = new System.Drawing.Size(291, 50);
             this.backbutton.TabIndex = 1;
             this.backbutton.Text = "Take me Back!";
             this.backbutton.UseVisualStyleBackColor = false;
@@ -86,14 +87,14 @@ namespace Human_FitnessProject
             // initialInfo
             // 
             this.initialInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.initialInfo.AutoSize = true;
-            this.initialInfo.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.initialInfo.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.initialInfo.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.initialInfo.Location = new System.Drawing.Point(34, 248);
+            this.initialInfo.Location = new System.Drawing.Point(-9, 334);
+            this.initialInfo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.initialInfo.Name = "initialInfo";
-            this.initialInfo.Size = new System.Drawing.Size(341, 28);
+            this.initialInfo.Size = new System.Drawing.Size(446, 56);
             this.initialInfo.TabIndex = 5;
-            this.initialInfo.Text = "Now that you are here, let\'s gather";
+            this.initialInfo.Text = "Now that you are here, let\'s";
             // 
             // physicalInfo
             // 
@@ -101,7 +102,8 @@ namespace Human_FitnessProject
             this.physicalInfo.AutoSize = true;
             this.physicalInfo.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.physicalInfo.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.physicalInfo.Location = new System.Drawing.Point(1036, 260);
+            this.physicalInfo.Location = new System.Drawing.Point(1260, 626);
+            this.physicalInfo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.physicalInfo.Name = "physicalInfo";
             this.physicalInfo.Size = new System.Drawing.Size(266, 28);
             this.physicalInfo.TabIndex = 6;
@@ -111,26 +113,27 @@ namespace Human_FitnessProject
             // 
             this.initialinfo2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.initialinfo2.AutoSize = true;
-            this.initialinfo2.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.initialinfo2.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.initialinfo2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.initialinfo2.Location = new System.Drawing.Point(78, 276);
+            this.initialinfo2.Location = new System.Drawing.Point(2, 379);
+            this.initialinfo2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.initialinfo2.Name = "initialinfo2";
-            this.initialinfo2.Size = new System.Drawing.Size(242, 28);
+            this.initialinfo2.Size = new System.Drawing.Size(361, 45);
             this.initialinfo2.TabIndex = 7;
-            this.initialinfo2.Text = "some initial information";
+            this.initialinfo2.Text = "gather some information";
             // 
             // boom
             // 
-            this.boom.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.boom.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.boom.AutoSize = true;
             this.boom.Font = new System.Drawing.Font("Monotype Corsiva", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boom.Location = new System.Drawing.Point(495, 11);
+            this.boom.Location = new System.Drawing.Point(1133, 352);
+            this.boom.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.boom.Name = "boom";
-            this.boom.Size = new System.Drawing.Size(377, 57);
+            this.boom.Size = new System.Drawing.Size(450, 90);
             this.boom.TabIndex = 8;
-            this.boom.Text = "BOOM! You did it!";
-            this.boom.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            this.boom.Text = "BOOM! Awesome Job!";
+            this.boom.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // initinfoPanel
             // 
@@ -144,51 +147,56 @@ namespace Human_FitnessProject
             this.initinfoPanel.Controls.Add(this.nameBox);
             this.initinfoPanel.Controls.Add(this.clientDOB);
             this.initinfoPanel.Controls.Add(this.clientName);
-            this.initinfoPanel.Location = new System.Drawing.Point(10, 315);
+            this.initinfoPanel.Location = new System.Drawing.Point(10, 444);
+            this.initinfoPanel.Margin = new System.Windows.Forms.Padding(2);
             this.initinfoPanel.Name = "initinfoPanel";
-            this.initinfoPanel.Size = new System.Drawing.Size(365, 192);
+            this.initinfoPanel.Size = new System.Drawing.Size(438, 438);
             this.initinfoPanel.TabIndex = 9;
             this.initinfoPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.initinfoPanel_Paint);
             // 
             // clientPhoneNumber
             // 
             this.clientPhoneNumber.AutoSize = true;
-            this.clientPhoneNumber.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clientPhoneNumber.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clientPhoneNumber.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientPhoneNumber.Location = new System.Drawing.Point(2, 114);
+            this.clientPhoneNumber.Location = new System.Drawing.Point(100, 214);
+            this.clientPhoneNumber.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.clientPhoneNumber.Name = "clientPhoneNumber";
-            this.clientPhoneNumber.Size = new System.Drawing.Size(157, 28);
+            this.clientPhoneNumber.Size = new System.Drawing.Size(238, 45);
             this.clientPhoneNumber.TabIndex = 19;
             this.clientPhoneNumber.Text = "Phone Number:";
             // 
             // clientEmail
             // 
             this.clientEmail.AutoSize = true;
-            this.clientEmail.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clientEmail.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clientEmail.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientEmail.Location = new System.Drawing.Point(31, 75);
+            this.clientEmail.Location = new System.Drawing.Point(158, 108);
+            this.clientEmail.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.clientEmail.Name = "clientEmail";
-            this.clientEmail.Size = new System.Drawing.Size(76, 28);
+            this.clientEmail.Size = new System.Drawing.Size(116, 45);
             this.clientEmail.TabIndex = 18;
             this.clientEmail.Text = "Email:";
             this.clientEmail.Click += new System.EventHandler(this.clientEmail_Click);
             // 
             // phoneNumberBox
             // 
-            this.phoneNumberBox.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.phoneNumberBox.Location = new System.Drawing.Point(172, 111);
+            this.phoneNumberBox.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.phoneNumberBox.Location = new System.Drawing.Point(11, 261);
+            this.phoneNumberBox.Margin = new System.Windows.Forms.Padding(2);
             this.phoneNumberBox.Name = "phoneNumberBox";
-            this.phoneNumberBox.Size = new System.Drawing.Size(176, 33);
+            this.phoneNumberBox.Size = new System.Drawing.Size(403, 48);
             this.phoneNumberBox.TabIndex = 17;
             this.phoneNumberBox.Visible = false;
             this.phoneNumberBox.TextChanged += new System.EventHandler(this.phoneNumberBox_TextChanged);
             // 
             // emailBox
             // 
-            this.emailBox.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emailBox.Location = new System.Drawing.Point(172, 72);
+            this.emailBox.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emailBox.Location = new System.Drawing.Point(11, 155);
+            this.emailBox.Margin = new System.Windows.Forms.Padding(2);
             this.emailBox.Name = "emailBox";
-            this.emailBox.Size = new System.Drawing.Size(176, 33);
+            this.emailBox.Size = new System.Drawing.Size(403, 48);
             this.emailBox.TabIndex = 16;
             this.emailBox.Visible = false;
             this.emailBox.TextChanged += new System.EventHandler(this.emailBox_TextChanged);
@@ -199,47 +207,52 @@ namespace Human_FitnessProject
             this.dateOfBirthPicker.CalendarTitleBackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dateOfBirthPicker.CalendarTrailingForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dateOfBirthPicker.CustomFormat = "dd MMM yyyy";
-            this.dateOfBirthPicker.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.dateOfBirthPicker.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dateOfBirthPicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateOfBirthPicker.Location = new System.Drawing.Point(172, 150);
+            this.dateOfBirthPicker.Location = new System.Drawing.Point(104, 366);
+            this.dateOfBirthPicker.Margin = new System.Windows.Forms.Padding(2);
             this.dateOfBirthPicker.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
             this.dateOfBirthPicker.Name = "dateOfBirthPicker";
-            this.dateOfBirthPicker.Size = new System.Drawing.Size(176, 33);
+            this.dateOfBirthPicker.Size = new System.Drawing.Size(306, 48);
             this.dateOfBirthPicker.TabIndex = 15;
             this.dateOfBirthPicker.Visible = false;
             this.dateOfBirthPicker.ValueChanged += new System.EventHandler(this.dateOfBirthPicker_ValueChanged);
             // 
             // nameBox
             // 
-            this.nameBox.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameBox.Location = new System.Drawing.Point(172, 33);
+            this.nameBox.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nameBox.Location = new System.Drawing.Point(11, 55);
+            this.nameBox.Margin = new System.Windows.Forms.Padding(2);
             this.nameBox.Name = "nameBox";
-            this.nameBox.Size = new System.Drawing.Size(176, 33);
+            this.nameBox.Size = new System.Drawing.Size(403, 48);
             this.nameBox.TabIndex = 4;
             this.nameBox.TextChanged += new System.EventHandler(this.nameBox_TextChanged);
             // 
             // clientDOB
             // 
             this.clientDOB.AutoSize = true;
-            this.clientDOB.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clientDOB.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clientDOB.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientDOB.Location = new System.Drawing.Point(3, 155);
+            this.clientDOB.Location = new System.Drawing.Point(155, 314);
+            this.clientDOB.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.clientDOB.Name = "clientDOB";
-            this.clientDOB.Size = new System.Drawing.Size(153, 28);
+            this.clientDOB.Size = new System.Drawing.Size(97, 45);
             this.clientDOB.TabIndex = 2;
-            this.clientDOB.Text = "Date Of Birth:";
+            this.clientDOB.Text = "DoB:";
             this.clientDOB.Click += new System.EventHandler(this.label3_Click);
             // 
             // clientName
             // 
             this.clientName.AutoSize = true;
-            this.clientName.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clientName.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clientName.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientName.Location = new System.Drawing.Point(31, 36);
+            this.clientName.Location = new System.Drawing.Point(112, 0);
+            this.clientName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.clientName.Name = "clientName";
-            this.clientName.Size = new System.Drawing.Size(120, 28);
+            this.clientName.Size = new System.Drawing.Size(182, 45);
             this.clientName.TabIndex = 0;
             this.clientName.Text = "Full Name:";
+            this.clientName.Click += new System.EventHandler(this.clientName_Click);
             // 
             // attribPanel
             // 
@@ -251,28 +264,31 @@ namespace Human_FitnessProject
             this.attribPanel.Controls.Add(this.clientWeight);
             this.attribPanel.Controls.Add(this.weightBox);
             this.attribPanel.Controls.Add(this.clientGender);
-            this.attribPanel.Location = new System.Drawing.Point(981, 315);
+            this.attribPanel.Location = new System.Drawing.Point(1131, 444);
+            this.attribPanel.Margin = new System.Windows.Forms.Padding(2);
             this.attribPanel.Name = "attribPanel";
-            this.attribPanel.Size = new System.Drawing.Size(365, 192);
+            this.attribPanel.Size = new System.Drawing.Size(438, 438);
             this.attribPanel.TabIndex = 10;
             this.attribPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.attribPanel_Paint);
             // 
             // heightBox
             // 
-            this.heightBox.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.heightBox.Location = new System.Drawing.Point(161, 77);
+            this.heightBox.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.heightBox.Location = new System.Drawing.Point(12, 212);
+            this.heightBox.Margin = new System.Windows.Forms.Padding(2);
             this.heightBox.Name = "heightBox";
-            this.heightBox.Size = new System.Drawing.Size(179, 33);
+            this.heightBox.Size = new System.Drawing.Size(409, 48);
             this.heightBox.TabIndex = 8;
             this.heightBox.Visible = false;
             this.heightBox.TextChanged += new System.EventHandler(this.heightBox_TextChanged);
             // 
             // genderBox
             // 
-            this.genderBox.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.genderBox.Location = new System.Drawing.Point(161, 134);
+            this.genderBox.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.genderBox.Location = new System.Drawing.Point(12, 349);
+            this.genderBox.Margin = new System.Windows.Forms.Padding(2);
             this.genderBox.Name = "genderBox";
-            this.genderBox.Size = new System.Drawing.Size(179, 33);
+            this.genderBox.Size = new System.Drawing.Size(409, 48);
             this.genderBox.TabIndex = 7;
             this.toolTip1.SetToolTip(this.genderBox, "Feel free to input any gender that feels comfortable to you...\r\nto include none o" +
         "r N/A!");
@@ -282,31 +298,34 @@ namespace Human_FitnessProject
             // clientHeight
             // 
             this.clientHeight.AutoSize = true;
-            this.clientHeight.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clientHeight.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clientHeight.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientHeight.Location = new System.Drawing.Point(2, 80);
+            this.clientHeight.Location = new System.Drawing.Point(115, 165);
+            this.clientHeight.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.clientHeight.Name = "clientHeight";
-            this.clientHeight.Size = new System.Drawing.Size(161, 28);
+            this.clientHeight.Size = new System.Drawing.Size(242, 45);
             this.clientHeight.TabIndex = 2;
             this.clientHeight.Text = "Height (inches):";
             // 
             // clientWeight
             // 
             this.clientWeight.AutoSize = true;
-            this.clientWeight.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clientWeight.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clientWeight.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientWeight.Location = new System.Drawing.Point(2, 19);
+            this.clientWeight.Location = new System.Drawing.Point(115, 42);
+            this.clientWeight.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.clientWeight.Name = "clientWeight";
-            this.clientWeight.Size = new System.Drawing.Size(135, 28);
+            this.clientWeight.Size = new System.Drawing.Size(204, 45);
             this.clientWeight.TabIndex = 1;
             this.clientWeight.Text = "Weight (lbs):";
             // 
             // weightBox
             // 
-            this.weightBox.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.weightBox.Location = new System.Drawing.Point(161, 14);
+            this.weightBox.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.weightBox.Location = new System.Drawing.Point(12, 90);
+            this.weightBox.Margin = new System.Windows.Forms.Padding(2);
             this.weightBox.Name = "weightBox";
-            this.weightBox.Size = new System.Drawing.Size(179, 33);
+            this.weightBox.Size = new System.Drawing.Size(409, 48);
             this.weightBox.TabIndex = 0;
             this.weightBox.Visible = false;
             this.weightBox.TextChanged += new System.EventHandler(this.weightBox_TextChanged);
@@ -314,11 +333,12 @@ namespace Human_FitnessProject
             // clientGender
             // 
             this.clientGender.AutoSize = true;
-            this.clientGender.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clientGender.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.clientGender.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientGender.Location = new System.Drawing.Point(52, 137);
+            this.clientGender.Location = new System.Drawing.Point(168, 301);
+            this.clientGender.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.clientGender.Name = "clientGender";
-            this.clientGender.Size = new System.Drawing.Size(85, 28);
+            this.clientGender.Size = new System.Drawing.Size(130, 45);
             this.clientGender.TabIndex = 3;
             this.clientGender.Text = "Gender:";
             this.clientGender.Click += new System.EventHandler(this.label4_Click);
@@ -328,13 +348,14 @@ namespace Human_FitnessProject
             this.nextButton.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.nextButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.nextButton.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.nextButton.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nextButton.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nextButton.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.nextButton.Location = new System.Drawing.Point(1075, 535);
+            this.nextButton.Location = new System.Drawing.Point(1238, 894);
+            this.nextButton.Margin = new System.Windows.Forms.Padding(2);
             this.nextButton.Name = "nextButton";
-            this.nextButton.Size = new System.Drawing.Size(271, 39);
+            this.nextButton.Size = new System.Drawing.Size(330, 54);
             this.nextButton.TabIndex = 12;
-            this.nextButton.Text = "I\'m Done Here...Let\'s Go!";
+            this.nextButton.Text = "Done Here! Let\'s Go!";
             this.nextButton.UseVisualStyleBackColor = false;
             this.nextButton.Visible = false;
             this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
@@ -343,10 +364,11 @@ namespace Human_FitnessProject
             // 
             this.save1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.save1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.save1.Font = new System.Drawing.Font("Monotype Corsiva", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.save1.Location = new System.Drawing.Point(283, 514);
+            this.save1.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.save1.Location = new System.Drawing.Point(316, 894);
+            this.save1.Margin = new System.Windows.Forms.Padding(2);
             this.save1.Name = "save1";
-            this.save1.Size = new System.Drawing.Size(92, 39);
+            this.save1.Size = new System.Drawing.Size(109, 54);
             this.save1.TabIndex = 13;
             this.save1.Text = "Save";
             this.save1.UseVisualStyleBackColor = false;
@@ -356,10 +378,11 @@ namespace Human_FitnessProject
             // 
             this.save2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.save2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.save2.Font = new System.Drawing.Font("Monotype Corsiva", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.save2.Location = new System.Drawing.Point(981, 514);
+            this.save2.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.save2.Location = new System.Drawing.Point(1131, 892);
+            this.save2.Margin = new System.Windows.Forms.Padding(2);
             this.save2.Name = "save2";
-            this.save2.Size = new System.Drawing.Size(88, 39);
+            this.save2.Size = new System.Drawing.Size(102, 58);
             this.save2.TabIndex = 14;
             this.save2.Text = "Save";
             this.save2.UseVisualStyleBackColor = false;
@@ -371,9 +394,10 @@ namespace Human_FitnessProject
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Image = global::Human_FitnessProject.Properties.Resources.color_logo___with_background;
-            this.pictureBox2.Location = new System.Drawing.Point(449, 470);
+            this.pictureBox2.Location = new System.Drawing.Point(365, 712);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(472, 114);
+            this.pictureBox2.Size = new System.Drawing.Size(852, 250);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
@@ -382,9 +406,10 @@ namespace Human_FitnessProject
             // 
             this.logo3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.logo3.Image = ((System.Drawing.Image)(resources.GetObject("logo3.Image")));
-            this.logo3.Location = new System.Drawing.Point(1198, 10);
+            this.logo3.Location = new System.Drawing.Point(1318, 14);
+            this.logo3.Margin = new System.Windows.Forms.Padding(2);
             this.logo3.Name = "logo3";
-            this.logo3.Size = new System.Drawing.Size(147, 148);
+            this.logo3.Size = new System.Drawing.Size(250, 250);
             this.logo3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logo3.TabIndex = 3;
             this.logo3.TabStop = false;
@@ -393,8 +418,9 @@ namespace Human_FitnessProject
             // 
             this.logo2.Image = global::Human_FitnessProject.Properties.Resources.Color_logo_with_background;
             this.logo2.Location = new System.Drawing.Point(10, 10);
+            this.logo2.Margin = new System.Windows.Forms.Padding(2);
             this.logo2.Name = "logo2";
-            this.logo2.Size = new System.Drawing.Size(147, 148);
+            this.logo2.Size = new System.Drawing.Size(250, 250);
             this.logo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logo2.TabIndex = 2;
             this.logo2.TabStop = false;
@@ -405,9 +431,10 @@ namespace Human_FitnessProject
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = global::Human_FitnessProject.Properties.Resources.beach_workout;
-            this.pictureBox1.Location = new System.Drawing.Point(447, 123);
+            this.pictureBox1.Location = new System.Drawing.Point(441, 14);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(474, 375);
+            this.pictureBox1.Size = new System.Drawing.Size(697, 742);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -424,7 +451,7 @@ namespace Human_FitnessProject
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1359, 586);
+            this.ClientSize = new System.Drawing.Size(1582, 953);
             this.Controls.Add(this.save2);
             this.Controls.Add(this.save1);
             this.Controls.Add(this.nextButton);
@@ -442,6 +469,7 @@ namespace Human_FitnessProject
             this.Font = new System.Drawing.Font("Monotype Corsiva", 7.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "intake";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WE ARE SO GLAD YOU MADE IT HERE!";

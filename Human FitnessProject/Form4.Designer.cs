@@ -69,10 +69,10 @@ namespace Human_FitnessProject
             this.continuepage2.BackColor = System.Drawing.SystemColors.HotTrack;
             this.continuepage2.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.continuepage2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.continuepage2.Location = new System.Drawing.Point(384, 773);
-            this.continuepage2.Margin = new System.Windows.Forms.Padding(4);
+            this.continuepage2.Location = new System.Drawing.Point(386, 772);
+            this.continuepage2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.continuepage2.Name = "continuepage2";
-            this.continuepage2.Size = new System.Drawing.Size(152, 37);
+            this.continuepage2.Size = new System.Drawing.Size(152, 38);
             this.continuepage2.TabIndex = 0;
             this.continuepage2.Text = "Next Page";
             this.continuepage2.UseVisualStyleBackColor = false;
@@ -86,6 +86,7 @@ namespace Human_FitnessProject
             this.back3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.back3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.back3.Location = new System.Drawing.Point(12, 775);
+            this.back3.Margin = new System.Windows.Forms.Padding(2);
             this.back3.Name = "back3";
             this.back3.Size = new System.Drawing.Size(206, 35);
             this.back3.TabIndex = 1;
@@ -95,32 +96,36 @@ namespace Human_FitnessProject
             // 
             // yesButton1
             // 
-            this.yesButton1.Location = new System.Drawing.Point(0, 0);
+            this.yesButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.yesButton1.Location = new System.Drawing.Point(2, 2);
+            this.yesButton1.Margin = new System.Windows.Forms.Padding(2);
             this.yesButton1.Name = "yesButton1";
-            this.yesButton1.Size = new System.Drawing.Size(14, 14);
+            this.yesButton1.Size = new System.Drawing.Size(12, 12);
             this.yesButton1.TabIndex = 2;
-            this.yesButton1.TabStop = true;
             this.yesButton1.UseVisualStyleBackColor = true;
+            this.yesButton1.CheckedChanged += new System.EventHandler(this.yesButton1_CheckedChanged);
             // 
             // noButton1
             // 
-            this.noButton1.Location = new System.Drawing.Point(0, 20);
+            this.noButton1.Location = new System.Drawing.Point(2, 20);
+            this.noButton1.Margin = new System.Windows.Forms.Padding(2);
             this.noButton1.Name = "noButton1";
-            this.noButton1.Size = new System.Drawing.Size(14, 14);
+            this.noButton1.Size = new System.Drawing.Size(12, 12);
             this.noButton1.TabIndex = 3;
-            this.noButton1.TabStop = true;
             this.noButton1.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.groupBox1.Controls.Add(this.yesButton1);
             this.groupBox1.Controls.Add(this.noButton1);
-            this.groupBox1.Location = new System.Drawing.Point(69, 316);
+            this.groupBox1.Location = new System.Drawing.Point(68, 314);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(15, 34);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox1.Size = new System.Drawing.Size(19, 38);
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             // 
@@ -131,15 +136,18 @@ namespace Human_FitnessProject
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.yesButton2);
             this.groupBox2.Controls.Add(this.noButton2);
-            this.groupBox2.Location = new System.Drawing.Point(68, 367);
+            this.groupBox2.Location = new System.Drawing.Point(68, 368);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(15, 34);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox2.Size = new System.Drawing.Size(20, 38);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             // 
             // yesButton2
             // 
             this.yesButton2.Location = new System.Drawing.Point(0, 0);
+            this.yesButton2.Margin = new System.Windows.Forms.Padding(2);
             this.yesButton2.Name = "yesButton2";
             this.yesButton2.Size = new System.Drawing.Size(14, 14);
             this.yesButton2.TabIndex = 2;
@@ -149,6 +157,7 @@ namespace Human_FitnessProject
             // noButton2
             // 
             this.noButton2.Location = new System.Drawing.Point(0, 20);
+            this.noButton2.Margin = new System.Windows.Forms.Padding(2);
             this.noButton2.Name = "noButton2";
             this.noButton2.Size = new System.Drawing.Size(14, 14);
             this.noButton2.TabIndex = 3;
@@ -162,15 +171,18 @@ namespace Human_FitnessProject
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox3.Controls.Add(this.yesButton3);
             this.groupBox3.Controls.Add(this.noButton3);
-            this.groupBox3.Location = new System.Drawing.Point(67, 429);
+            this.groupBox3.Location = new System.Drawing.Point(68, 429);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(15, 34);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox3.Size = new System.Drawing.Size(20, 38);
             this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
             // 
             // yesButton3
             // 
             this.yesButton3.Location = new System.Drawing.Point(0, 0);
+            this.yesButton3.Margin = new System.Windows.Forms.Padding(2);
             this.yesButton3.Name = "yesButton3";
             this.yesButton3.Size = new System.Drawing.Size(14, 14);
             this.yesButton3.TabIndex = 2;
@@ -181,6 +193,7 @@ namespace Human_FitnessProject
             // noButton3
             // 
             this.noButton3.Location = new System.Drawing.Point(0, 20);
+            this.noButton3.Margin = new System.Windows.Forms.Padding(2);
             this.noButton3.Name = "noButton3";
             this.noButton3.Size = new System.Drawing.Size(14, 14);
             this.noButton3.TabIndex = 3;
@@ -195,14 +208,17 @@ namespace Human_FitnessProject
             this.groupBox4.Controls.Add(this.yesButton4);
             this.groupBox4.Controls.Add(this.noButton4);
             this.groupBox4.Location = new System.Drawing.Point(69, 492);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(15, 34);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox4.Size = new System.Drawing.Size(20, 38);
             this.groupBox4.TabIndex = 7;
             this.groupBox4.TabStop = false;
             // 
             // yesButton4
             // 
             this.yesButton4.Location = new System.Drawing.Point(0, 0);
+            this.yesButton4.Margin = new System.Windows.Forms.Padding(2);
             this.yesButton4.Name = "yesButton4";
             this.yesButton4.Size = new System.Drawing.Size(14, 14);
             this.yesButton4.TabIndex = 2;
@@ -212,6 +228,7 @@ namespace Human_FitnessProject
             // noButton4
             // 
             this.noButton4.Location = new System.Drawing.Point(0, 20);
+            this.noButton4.Margin = new System.Windows.Forms.Padding(2);
             this.noButton4.Name = "noButton4";
             this.noButton4.Size = new System.Drawing.Size(14, 14);
             this.noButton4.TabIndex = 3;
@@ -226,14 +243,17 @@ namespace Human_FitnessProject
             this.groupBox5.Controls.Add(this.yesButton5);
             this.groupBox5.Controls.Add(this.noButton5);
             this.groupBox5.Location = new System.Drawing.Point(69, 555);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(15, 34);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox5.Size = new System.Drawing.Size(20, 38);
             this.groupBox5.TabIndex = 8;
             this.groupBox5.TabStop = false;
             // 
             // yesButton5
             // 
             this.yesButton5.Location = new System.Drawing.Point(0, 0);
+            this.yesButton5.Margin = new System.Windows.Forms.Padding(2);
             this.yesButton5.Name = "yesButton5";
             this.yesButton5.Size = new System.Drawing.Size(14, 14);
             this.yesButton5.TabIndex = 2;
@@ -243,6 +263,7 @@ namespace Human_FitnessProject
             // noButton5
             // 
             this.noButton5.Location = new System.Drawing.Point(0, 20);
+            this.noButton5.Margin = new System.Windows.Forms.Padding(2);
             this.noButton5.Name = "noButton5";
             this.noButton5.Size = new System.Drawing.Size(14, 14);
             this.noButton5.TabIndex = 3;
@@ -256,15 +277,18 @@ namespace Human_FitnessProject
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox6.Controls.Add(this.yesButton6);
             this.groupBox6.Controls.Add(this.noButton6);
-            this.groupBox6.Location = new System.Drawing.Point(68, 617);
+            this.groupBox6.Location = new System.Drawing.Point(68, 612);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(15, 34);
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox6.Size = new System.Drawing.Size(20, 38);
             this.groupBox6.TabIndex = 7;
             this.groupBox6.TabStop = false;
             // 
             // yesButton6
             // 
             this.yesButton6.Location = new System.Drawing.Point(0, 0);
+            this.yesButton6.Margin = new System.Windows.Forms.Padding(2);
             this.yesButton6.Name = "yesButton6";
             this.yesButton6.Size = new System.Drawing.Size(14, 14);
             this.yesButton6.TabIndex = 2;
@@ -274,6 +298,7 @@ namespace Human_FitnessProject
             // noButton6
             // 
             this.noButton6.Location = new System.Drawing.Point(0, 20);
+            this.noButton6.Margin = new System.Windows.Forms.Padding(2);
             this.noButton6.Name = "noButton6";
             this.noButton6.Size = new System.Drawing.Size(14, 14);
             this.noButton6.TabIndex = 3;
@@ -288,23 +313,28 @@ namespace Human_FitnessProject
             this.groupBox7.Controls.Add(this.yesButton7);
             this.groupBox7.Controls.Add(this.noButton7);
             this.groupBox7.Location = new System.Drawing.Point(69, 668);
+            this.groupBox7.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(15, 34);
+            this.groupBox7.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox7.Size = new System.Drawing.Size(20, 38);
             this.groupBox7.TabIndex = 8;
             this.groupBox7.TabStop = false;
             // 
             // yesButton7
             // 
+            this.yesButton7.BackColor = System.Drawing.SystemColors.Control;
             this.yesButton7.Location = new System.Drawing.Point(0, 0);
+            this.yesButton7.Margin = new System.Windows.Forms.Padding(2);
             this.yesButton7.Name = "yesButton7";
             this.yesButton7.Size = new System.Drawing.Size(14, 14);
             this.yesButton7.TabIndex = 2;
             this.yesButton7.TabStop = true;
-            this.yesButton7.UseVisualStyleBackColor = true;
+            this.yesButton7.UseVisualStyleBackColor = false;
             // 
             // noButton7
             // 
             this.noButton7.Location = new System.Drawing.Point(0, 20);
+            this.noButton7.Margin = new System.Windows.Forms.Padding(2);
             this.noButton7.Name = "noButton7";
             this.noButton7.Size = new System.Drawing.Size(14, 14);
             this.noButton7.TabIndex = 3;
@@ -318,10 +348,10 @@ namespace Human_FitnessProject
             this.saveButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.saveButton.ForeColor = System.Drawing.SystemColors.HighlightText;
             this.saveButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.saveButton.Location = new System.Drawing.Point(225, 773);
-            this.saveButton.Margin = new System.Windows.Forms.Padding(4);
+            this.saveButton.Location = new System.Drawing.Point(225, 772);
+            this.saveButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.saveButton.Name = "saveButton";
-            this.saveButton.Size = new System.Drawing.Size(152, 37);
+            this.saveButton.Size = new System.Drawing.Size(155, 38);
             this.saveButton.TabIndex = 9;
             this.saveButton.Text = "Save";
             this.saveButton.UseVisualStyleBackColor = false;
@@ -334,14 +364,14 @@ namespace Human_FitnessProject
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackgroundImage = global::Human_FitnessProject.Properties.Resources.ParQpage1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(549, 808);
-            this.Controls.Add(this.saveButton);
+            this.ClientSize = new System.Drawing.Size(551, 808);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox6);
-            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox5);
+            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.saveButton);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.back3);
             this.Controls.Add(this.continuepage2);
@@ -349,9 +379,8 @@ namespace Human_FitnessProject
             this.Font = new System.Drawing.Font("Monotype Corsiva", 10.125F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
-            this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(1170, 1170);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.MaximumSize = new System.Drawing.Size(1169, 1168);
             this.Name = "parQ1form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ParQ and You Page 1";

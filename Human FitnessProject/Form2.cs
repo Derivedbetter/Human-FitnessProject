@@ -350,6 +350,11 @@ namespace Human_FitnessProject
         {
             dateOfBirthPicker.Visible = true;
         }
+
+        private void clientName_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
     

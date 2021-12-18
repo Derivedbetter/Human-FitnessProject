@@ -46,6 +46,7 @@ namespace Human_FitnessProject
             this.squareLogo2 = new System.Windows.Forms.PictureBox();
             this.longLogo = new System.Windows.Forms.PictureBox();
             this.squareLogo = new System.Windows.Forms.PictureBox();
+            this.moveOnLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.motivation2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.motivation1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.waiverBox)).BeginInit();
@@ -57,14 +58,16 @@ namespace Human_FitnessProject
             // 
             // awesomeLabel
             // 
-            this.awesomeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.awesomeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.awesomeLabel.AutoSize = true;
-            this.awesomeLabel.Font = new System.Drawing.Font("Monotype Corsiva", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.awesomeLabel.Font = new System.Drawing.Font("Monotype Corsiva", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.awesomeLabel.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.awesomeLabel.Location = new System.Drawing.Point(404, 9);
+            this.awesomeLabel.Location = new System.Drawing.Point(443, 9);
+            this.awesomeLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.awesomeLabel.Name = "awesomeLabel";
-            this.awesomeLabel.Size = new System.Drawing.Size(693, 57);
+            this.awesomeLabel.Size = new System.Drawing.Size(853, 72);
             this.awesomeLabel.TabIndex = 20;
             this.awesomeLabel.Text = "Awesome! Lets knock out the details!";
             this.awesomeLabel.Click += new System.EventHandler(this.awesomeLabel_Click);
@@ -73,25 +76,28 @@ namespace Human_FitnessProject
             // 
             this.continue2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.continue2.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.continue2.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.continue2.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.continue2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.continue2.Location = new System.Drawing.Point(1019, 567);
+            this.continue2.Location = new System.Drawing.Point(1243, 886);
+            this.continue2.Margin = new System.Windows.Forms.Padding(2);
             this.continue2.Name = "continue2";
-            this.continue2.Size = new System.Drawing.Size(327, 42);
+            this.continue2.Size = new System.Drawing.Size(328, 52);
             this.continue2.TabIndex = 25;
             this.continue2.Text = "Moving On!";
             this.continue2.UseVisualStyleBackColor = false;
+            this.continue2.Visible = false;
             this.continue2.Click += new System.EventHandler(this.continue2_Click);
             // 
             // backtoIntake
             // 
             this.backtoIntake.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.backtoIntake.BackColor = System.Drawing.Color.Red;
-            this.backtoIntake.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backtoIntake.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backtoIntake.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.backtoIntake.Location = new System.Drawing.Point(12, 567);
+            this.backtoIntake.Location = new System.Drawing.Point(12, 886);
+            this.backtoIntake.Margin = new System.Windows.Forms.Padding(2);
             this.backtoIntake.Name = "backtoIntake";
-            this.backtoIntake.Size = new System.Drawing.Size(330, 42);
+            this.backtoIntake.Size = new System.Drawing.Size(330, 52);
             this.backtoIntake.TabIndex = 26;
             this.backtoIntake.Text = "Back To Intake";
             this.backtoIntake.UseVisualStyleBackColor = false;
@@ -102,11 +108,12 @@ namespace Human_FitnessProject
             this.parqLabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.parqLabel.AutoSize = true;
-            this.parqLabel.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.parqLabel.Font = new System.Drawing.Font("Monotype Corsiva", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.parqLabel.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.parqLabel.Location = new System.Drawing.Point(408, 523);
+            this.parqLabel.Location = new System.Drawing.Point(494, 111);
+            this.parqLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.parqLabel.Name = "parqLabel";
-            this.parqLabel.Size = new System.Drawing.Size(195, 28);
+            this.parqLabel.Size = new System.Drawing.Size(327, 49);
             this.parqLabel.TabIndex = 27;
             this.parqLabel.Text = "Click Form to Fillout";
             // 
@@ -115,11 +122,12 @@ namespace Human_FitnessProject
             this.waiverlabel.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.waiverlabel.AutoSize = true;
-            this.waiverlabel.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.waiverlabel.Font = new System.Drawing.Font("Monotype Corsiva", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.waiverlabel.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.waiverlabel.Location = new System.Drawing.Point(727, 523);
+            this.waiverlabel.Location = new System.Drawing.Point(751, 460);
+            this.waiverlabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.waiverlabel.Name = "waiverlabel";
-            this.waiverlabel.Size = new System.Drawing.Size(195, 28);
+            this.waiverlabel.Size = new System.Drawing.Size(327, 49);
             this.waiverlabel.TabIndex = 28;
             this.waiverlabel.Text = "Click Form to Fillout";
             // 
@@ -154,9 +162,10 @@ namespace Human_FitnessProject
             // 
             this.motivation2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.motivation2.Location = new System.Drawing.Point(1019, 197);
+            this.motivation2.Location = new System.Drawing.Point(1101, 239);
+            this.motivation2.Margin = new System.Windows.Forms.Padding(2);
             this.motivation2.Name = "motivation2";
-            this.motivation2.Size = new System.Drawing.Size(330, 323);
+            this.motivation2.Size = new System.Drawing.Size(472, 600);
             this.motivation2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.motivation2.TabIndex = 23;
             this.motivation2.TabStop = false;
@@ -165,9 +174,10 @@ namespace Human_FitnessProject
             // 
             this.motivation1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-            this.motivation1.Location = new System.Drawing.Point(20, 197);
+            this.motivation1.Location = new System.Drawing.Point(20, 239);
+            this.motivation1.Margin = new System.Windows.Forms.Padding(2);
             this.motivation1.Name = "motivation1";
-            this.motivation1.Size = new System.Drawing.Size(330, 323);
+            this.motivation1.Size = new System.Drawing.Size(460, 600);
             this.motivation1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.motivation1.TabIndex = 22;
             this.motivation1.TabStop = false;
@@ -178,9 +188,10 @@ namespace Human_FitnessProject
             this.waiverBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.waiverBox.Image = global::Human_FitnessProject.Properties.Resources.Waiver;
-            this.waiverBox.Location = new System.Drawing.Point(711, 170);
+            this.waiverBox.Location = new System.Drawing.Point(724, 199);
+            this.waiverBox.Margin = new System.Windows.Forms.Padding(2);
             this.waiverBox.Name = "waiverBox";
-            this.waiverBox.Size = new System.Drawing.Size(250, 350);
+            this.waiverBox.Size = new System.Drawing.Size(372, 513);
             this.waiverBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.waiverBox.TabIndex = 19;
             this.waiverBox.TabStop = false;
@@ -191,9 +202,10 @@ namespace Human_FitnessProject
             this.parQBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
             this.parQBox.Image = global::Human_FitnessProject.Properties.Resources.ParQ;
-            this.parQBox.Location = new System.Drawing.Point(400, 170);
+            this.parQBox.Location = new System.Drawing.Point(485, 35);
+            this.parQBox.Margin = new System.Windows.Forms.Padding(2);
             this.parQBox.Name = "parQBox";
-            this.parQBox.Size = new System.Drawing.Size(250, 350);
+            this.parQBox.Size = new System.Drawing.Size(415, 756);
             this.parQBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.parQBox.TabIndex = 18;
             this.parQBox.TabStop = false;
@@ -203,9 +215,10 @@ namespace Human_FitnessProject
             // 
             this.squareLogo2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.squareLogo2.Image = global::Human_FitnessProject.Properties.Resources.Color_logo_with_background;
-            this.squareLogo2.Location = new System.Drawing.Point(1202, 9);
+            this.squareLogo2.Location = new System.Drawing.Point(1318, 9);
+            this.squareLogo2.Margin = new System.Windows.Forms.Padding(2);
             this.squareLogo2.Name = "squareLogo2";
-            this.squareLogo2.Size = new System.Drawing.Size(147, 148);
+            this.squareLogo2.Size = new System.Drawing.Size(250, 250);
             this.squareLogo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.squareLogo2.TabIndex = 17;
             this.squareLogo2.TabStop = false;
@@ -215,9 +228,10 @@ namespace Human_FitnessProject
             this.longLogo.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.longLogo.Image = ((System.Drawing.Image)(resources.GetObject("longLogo.Image")));
-            this.longLogo.Location = new System.Drawing.Point(450, 526);
+            this.longLogo.Location = new System.Drawing.Point(370, 742);
+            this.longLogo.Margin = new System.Windows.Forms.Padding(2);
             this.longLogo.Name = "longLogo";
-            this.longLogo.Size = new System.Drawing.Size(449, 96);
+            this.longLogo.Size = new System.Drawing.Size(852, 250);
             this.longLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.longLogo.TabIndex = 16;
             this.longLogo.TabStop = false;
@@ -226,11 +240,27 @@ namespace Human_FitnessProject
             // 
             this.squareLogo.Image = global::Human_FitnessProject.Properties.Resources.Color_logo_with_background;
             this.squareLogo.Location = new System.Drawing.Point(12, 9);
+            this.squareLogo.Margin = new System.Windows.Forms.Padding(2);
             this.squareLogo.Name = "squareLogo";
-            this.squareLogo.Size = new System.Drawing.Size(147, 148);
+            this.squareLogo.Size = new System.Drawing.Size(250, 250);
             this.squareLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.squareLogo.TabIndex = 15;
             this.squareLogo.TabStop = false;
+            // 
+            // moveOnLabel
+            // 
+            this.moveOnLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.moveOnLabel.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.moveOnLabel.Font = new System.Drawing.Font("Monotype Corsiva", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.moveOnLabel.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.moveOnLabel.Location = new System.Drawing.Point(485, 729);
+            this.moveOnLabel.Name = "moveOnLabel";
+            this.moveOnLabel.Size = new System.Drawing.Size(611, 52);
+            this.moveOnLabel.TabIndex = 29;
+            this.moveOnLabel.Text = "You can move on after both forms are complete!";
+            this.moveOnLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // parqandwaiver
             // 
@@ -239,21 +269,23 @@ namespace Human_FitnessProject
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1358, 634);
+            this.ClientSize = new System.Drawing.Size(1582, 953);
+            this.Controls.Add(this.moveOnLabel);
+            this.Controls.Add(this.motivation2);
+            this.Controls.Add(this.motivation1);
+            this.Controls.Add(this.longLogo);
             this.Controls.Add(this.waiverlabel);
             this.Controls.Add(this.parqLabel);
             this.Controls.Add(this.backtoIntake);
             this.Controls.Add(this.continue2);
-            this.Controls.Add(this.motivation2);
-            this.Controls.Add(this.motivation1);
             this.Controls.Add(this.awesomeLabel);
             this.Controls.Add(this.waiverBox);
             this.Controls.Add(this.parQBox);
             this.Controls.Add(this.squareLogo2);
-            this.Controls.Add(this.longLogo);
             this.Controls.Add(this.squareLogo);
             this.Font = new System.Drawing.Font("Monotype Corsiva", 7.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "parqandwaiver";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ParQ and Liability Waiver";
@@ -287,5 +319,6 @@ namespace Human_FitnessProject
         private System.Windows.Forms.Timer mot1Timer;
         private System.Windows.Forms.Timer mot2Timer;
         private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.Label moveOnLabel;
     }
 }

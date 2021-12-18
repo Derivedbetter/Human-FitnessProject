@@ -182,5 +182,10 @@ namespace Human_FitnessProject
             }
 
         }
+
+        private void yesButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

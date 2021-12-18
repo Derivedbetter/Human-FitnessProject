@@ -70,6 +70,7 @@ namespace Human_FitnessProject
             goalsForm goalsForm = new goalsForm();
             this.Hide();
             goalsForm.Show();
+            
         }
 
         private void backButton_Click(object sender, EventArgs e)

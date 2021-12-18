@@ -148,5 +148,10 @@ namespace Human_FitnessProject
         {
 
         }
+
+        private void instructionsLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

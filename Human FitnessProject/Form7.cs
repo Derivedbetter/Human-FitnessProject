@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Net.Mail;
 
 namespace Human_FitnessProject
 {
@@ -92,7 +93,22 @@ namespace Human_FitnessProject
 
         private void goalsBox_Click(object sender, EventArgs e)
         {
+            GoalsPDFform GoalsPDFform = new GoalsPDFform();
+            this.Hide();
+            GoalsPDFform.Show();
 
+        }
+
+        private void goalsclickLabel_Click(object sender, EventArgs e)
+        {
+            GoalsPDFform GoalsPDFform = new GoalsPDFform();
+            this.Hide();
+            GoalsPDFform.Show();
+        }
+
+        private void schedapptButton_Click(object sender, EventArgs e)
+        {
+            
         }
     }
     }
