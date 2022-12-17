@@ -35,37 +35,37 @@ namespace Human_FitnessProject
             this.initialInfo = new System.Windows.Forms.Label();
             this.physicalInfo = new System.Windows.Forms.Label();
             this.initialinfo2 = new System.Windows.Forms.Label();
-            this.boom = new System.Windows.Forms.Label();
-            this.initinfoPanel = new System.Windows.Forms.Panel();
-            this.clientPhoneNumber = new System.Windows.Forms.Label();
-            this.clientEmail = new System.Windows.Forms.Label();
-            this.phoneNumberBox = new System.Windows.Forms.TextBox();
-            this.emailBox = new System.Windows.Forms.TextBox();
-            this.dateOfBirthPicker = new System.Windows.Forms.DateTimePicker();
-            this.nameBox = new System.Windows.Forms.TextBox();
-            this.clientDOB = new System.Windows.Forms.Label();
-            this.clientName = new System.Windows.Forms.Label();
             this.attribPanel = new System.Windows.Forms.Panel();
-            this.heightBox = new System.Windows.Forms.TextBox();
-            this.genderBox = new System.Windows.Forms.TextBox();
-            this.clientHeight = new System.Windows.Forms.Label();
-            this.clientWeight = new System.Windows.Forms.Label();
-            this.weightBox = new System.Windows.Forms.TextBox();
-            this.clientGender = new System.Windows.Forms.Label();
-            this.nextButton = new System.Windows.Forms.Button();
-            this.save1 = new System.Windows.Forms.Button();
-            this.save2 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.logo3 = new System.Windows.Forms.PictureBox();
             this.logo2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.initinfoPanel.SuspendLayout();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.initinfoPanel = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
             this.attribPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo2)).BeginInit();
+            this.initinfoPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // backbutton
@@ -75,10 +75,10 @@ namespace Human_FitnessProject
             this.backbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.backbutton.Font = new System.Drawing.Font("Yu Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backbutton.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.backbutton.Location = new System.Drawing.Point(10, 898);
+            this.backbutton.Location = new System.Drawing.Point(32, 1942);
             this.backbutton.Margin = new System.Windows.Forms.Padding(2);
             this.backbutton.Name = "backbutton";
-            this.backbutton.Size = new System.Drawing.Size(291, 50);
+            this.backbutton.Size = new System.Drawing.Size(233, 40);
             this.backbutton.TabIndex = 1;
             this.backbutton.Text = "Take me Back!";
             this.backbutton.UseVisualStyleBackColor = false;
@@ -89,10 +89,10 @@ namespace Human_FitnessProject
             this.initialInfo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.initialInfo.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.initialInfo.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.initialInfo.Location = new System.Drawing.Point(-9, 334);
+            this.initialInfo.Location = new System.Drawing.Point(11, 253);
             this.initialInfo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.initialInfo.Name = "initialInfo";
-            this.initialInfo.Size = new System.Drawing.Size(446, 56);
+            this.initialInfo.Size = new System.Drawing.Size(357, 45);
             this.initialInfo.TabIndex = 5;
             this.initialInfo.Text = "Now that you are here, let\'s";
             // 
@@ -102,10 +102,10 @@ namespace Human_FitnessProject
             this.physicalInfo.AutoSize = true;
             this.physicalInfo.Font = new System.Drawing.Font("Monotype Corsiva", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.physicalInfo.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.physicalInfo.Location = new System.Drawing.Point(1260, 626);
+            this.physicalInfo.Location = new System.Drawing.Point(4052, 1074);
             this.physicalInfo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.physicalInfo.Name = "physicalInfo";
-            this.physicalInfo.Size = new System.Drawing.Size(266, 28);
+            this.physicalInfo.Size = new System.Drawing.Size(218, 22);
             this.physicalInfo.TabIndex = 6;
             this.physicalInfo.Text = "Initial Physical Attributes";
             // 
@@ -115,289 +115,66 @@ namespace Human_FitnessProject
             this.initialinfo2.AutoSize = true;
             this.initialinfo2.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.initialinfo2.ForeColor = System.Drawing.SystemColors.HotTrack;
-            this.initialinfo2.Location = new System.Drawing.Point(2, 379);
+            this.initialinfo2.Location = new System.Drawing.Point(907, 253);
             this.initialinfo2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.initialinfo2.Name = "initialinfo2";
-            this.initialinfo2.Size = new System.Drawing.Size(361, 45);
+            this.initialinfo2.Size = new System.Drawing.Size(348, 36);
             this.initialinfo2.TabIndex = 7;
-            this.initialinfo2.Text = "gather some information";
-            // 
-            // boom
-            // 
-            this.boom.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.boom.Font = new System.Drawing.Font("Monotype Corsiva", 28.2F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.boom.Location = new System.Drawing.Point(1133, 352);
-            this.boom.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.boom.Name = "boom";
-            this.boom.Size = new System.Drawing.Size(450, 90);
-            this.boom.TabIndex = 8;
-            this.boom.Text = "BOOM! Awesome Job!";
-            this.boom.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // initinfoPanel
-            // 
-            this.initinfoPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.initinfoPanel.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.initinfoPanel.Controls.Add(this.clientPhoneNumber);
-            this.initinfoPanel.Controls.Add(this.clientEmail);
-            this.initinfoPanel.Controls.Add(this.phoneNumberBox);
-            this.initinfoPanel.Controls.Add(this.emailBox);
-            this.initinfoPanel.Controls.Add(this.dateOfBirthPicker);
-            this.initinfoPanel.Controls.Add(this.nameBox);
-            this.initinfoPanel.Controls.Add(this.clientDOB);
-            this.initinfoPanel.Controls.Add(this.clientName);
-            this.initinfoPanel.Location = new System.Drawing.Point(10, 444);
-            this.initinfoPanel.Margin = new System.Windows.Forms.Padding(2);
-            this.initinfoPanel.Name = "initinfoPanel";
-            this.initinfoPanel.Size = new System.Drawing.Size(438, 438);
-            this.initinfoPanel.TabIndex = 9;
-            this.initinfoPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.initinfoPanel_Paint);
-            // 
-            // clientPhoneNumber
-            // 
-            this.clientPhoneNumber.AutoSize = true;
-            this.clientPhoneNumber.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clientPhoneNumber.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientPhoneNumber.Location = new System.Drawing.Point(100, 214);
-            this.clientPhoneNumber.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.clientPhoneNumber.Name = "clientPhoneNumber";
-            this.clientPhoneNumber.Size = new System.Drawing.Size(238, 45);
-            this.clientPhoneNumber.TabIndex = 19;
-            this.clientPhoneNumber.Text = "Phone Number:";
-            // 
-            // clientEmail
-            // 
-            this.clientEmail.AutoSize = true;
-            this.clientEmail.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clientEmail.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientEmail.Location = new System.Drawing.Point(158, 108);
-            this.clientEmail.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.clientEmail.Name = "clientEmail";
-            this.clientEmail.Size = new System.Drawing.Size(116, 45);
-            this.clientEmail.TabIndex = 18;
-            this.clientEmail.Text = "Email:";
-            this.clientEmail.Click += new System.EventHandler(this.clientEmail_Click);
-            // 
-            // phoneNumberBox
-            // 
-            this.phoneNumberBox.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.phoneNumberBox.Location = new System.Drawing.Point(11, 261);
-            this.phoneNumberBox.Margin = new System.Windows.Forms.Padding(2);
-            this.phoneNumberBox.Name = "phoneNumberBox";
-            this.phoneNumberBox.Size = new System.Drawing.Size(403, 48);
-            this.phoneNumberBox.TabIndex = 17;
-            this.phoneNumberBox.Visible = false;
-            this.phoneNumberBox.TextChanged += new System.EventHandler(this.phoneNumberBox_TextChanged);
-            // 
-            // emailBox
-            // 
-            this.emailBox.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.emailBox.Location = new System.Drawing.Point(11, 155);
-            this.emailBox.Margin = new System.Windows.Forms.Padding(2);
-            this.emailBox.Name = "emailBox";
-            this.emailBox.Size = new System.Drawing.Size(403, 48);
-            this.emailBox.TabIndex = 16;
-            this.emailBox.Visible = false;
-            this.emailBox.TextChanged += new System.EventHandler(this.emailBox_TextChanged);
-            // 
-            // dateOfBirthPicker
-            // 
-            this.dateOfBirthPicker.CalendarFont = new System.Drawing.Font("Monotype Corsiva", 7.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateOfBirthPicker.CalendarTitleBackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dateOfBirthPicker.CalendarTrailingForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.dateOfBirthPicker.CustomFormat = "dd MMM yyyy";
-            this.dateOfBirthPicker.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateOfBirthPicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateOfBirthPicker.Location = new System.Drawing.Point(104, 366);
-            this.dateOfBirthPicker.Margin = new System.Windows.Forms.Padding(2);
-            this.dateOfBirthPicker.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
-            this.dateOfBirthPicker.Name = "dateOfBirthPicker";
-            this.dateOfBirthPicker.Size = new System.Drawing.Size(306, 48);
-            this.dateOfBirthPicker.TabIndex = 15;
-            this.dateOfBirthPicker.Visible = false;
-            this.dateOfBirthPicker.ValueChanged += new System.EventHandler(this.dateOfBirthPicker_ValueChanged);
-            // 
-            // nameBox
-            // 
-            this.nameBox.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameBox.Location = new System.Drawing.Point(11, 55);
-            this.nameBox.Margin = new System.Windows.Forms.Padding(2);
-            this.nameBox.Name = "nameBox";
-            this.nameBox.Size = new System.Drawing.Size(403, 48);
-            this.nameBox.TabIndex = 4;
-            this.nameBox.TextChanged += new System.EventHandler(this.nameBox_TextChanged);
-            // 
-            // clientDOB
-            // 
-            this.clientDOB.AutoSize = true;
-            this.clientDOB.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clientDOB.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientDOB.Location = new System.Drawing.Point(155, 314);
-            this.clientDOB.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.clientDOB.Name = "clientDOB";
-            this.clientDOB.Size = new System.Drawing.Size(97, 45);
-            this.clientDOB.TabIndex = 2;
-            this.clientDOB.Text = "DoB:";
-            this.clientDOB.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // clientName
-            // 
-            this.clientName.AutoSize = true;
-            this.clientName.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clientName.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientName.Location = new System.Drawing.Point(112, 0);
-            this.clientName.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.clientName.Name = "clientName";
-            this.clientName.Size = new System.Drawing.Size(182, 45);
-            this.clientName.TabIndex = 0;
-            this.clientName.Text = "Full Name:";
-            this.clientName.Click += new System.EventHandler(this.clientName_Click);
+            this.initialinfo2.Text = "checkout the HFP Blockchain";
             // 
             // attribPanel
             // 
             this.attribPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.attribPanel.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.attribPanel.Controls.Add(this.heightBox);
-            this.attribPanel.Controls.Add(this.genderBox);
-            this.attribPanel.Controls.Add(this.clientHeight);
-            this.attribPanel.Controls.Add(this.clientWeight);
-            this.attribPanel.Controls.Add(this.weightBox);
-            this.attribPanel.Controls.Add(this.clientGender);
-            this.attribPanel.Location = new System.Drawing.Point(1131, 444);
+            this.attribPanel.Controls.Add(this.button6);
+            this.attribPanel.Controls.Add(this.button5);
+            this.attribPanel.Controls.Add(this.button4);
+            this.attribPanel.Location = new System.Drawing.Point(3680, 490);
             this.attribPanel.Margin = new System.Windows.Forms.Padding(2);
             this.attribPanel.Name = "attribPanel";
-            this.attribPanel.Size = new System.Drawing.Size(438, 438);
+            this.attribPanel.Size = new System.Drawing.Size(350, 350);
             this.attribPanel.TabIndex = 10;
             this.attribPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.attribPanel_Paint);
             // 
-            // heightBox
+            // button6
             // 
-            this.heightBox.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.heightBox.Location = new System.Drawing.Point(12, 212);
-            this.heightBox.Margin = new System.Windows.Forms.Padding(2);
-            this.heightBox.Name = "heightBox";
-            this.heightBox.Size = new System.Drawing.Size(409, 48);
-            this.heightBox.TabIndex = 8;
-            this.heightBox.Visible = false;
-            this.heightBox.TextChanged += new System.EventHandler(this.heightBox_TextChanged);
+            this.button6.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(53, 234);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(238, 49);
+            this.button6.TabIndex = 23;
+            this.button6.Text = "Exit Program";
+            this.button6.UseVisualStyleBackColor = true;
             // 
-            // genderBox
+            // button5
             // 
-            this.genderBox.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.genderBox.Location = new System.Drawing.Point(12, 349);
-            this.genderBox.Margin = new System.Windows.Forms.Padding(2);
-            this.genderBox.Name = "genderBox";
-            this.genderBox.Size = new System.Drawing.Size(409, 48);
-            this.genderBox.TabIndex = 7;
-            this.toolTip1.SetToolTip(this.genderBox, "Feel free to input any gender that feels comfortable to you...\r\nto include none o" +
-        "r N/A!");
-            this.genderBox.Visible = false;
-            this.genderBox.TextChanged += new System.EventHandler(this.genderBox_TextChanged);
+            this.button5.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(53, 146);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(238, 49);
+            this.button5.TabIndex = 22;
+            this.button5.Text = "Blockchain Explorer";
+            this.button5.UseVisualStyleBackColor = true;
             // 
-            // clientHeight
+            // button4
             // 
-            this.clientHeight.AutoSize = true;
-            this.clientHeight.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clientHeight.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientHeight.Location = new System.Drawing.Point(115, 165);
-            this.clientHeight.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.clientHeight.Name = "clientHeight";
-            this.clientHeight.Size = new System.Drawing.Size(242, 45);
-            this.clientHeight.TabIndex = 2;
-            this.clientHeight.Text = "Height (inches):";
-            // 
-            // clientWeight
-            // 
-            this.clientWeight.AutoSize = true;
-            this.clientWeight.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clientWeight.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientWeight.Location = new System.Drawing.Point(115, 42);
-            this.clientWeight.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.clientWeight.Name = "clientWeight";
-            this.clientWeight.Size = new System.Drawing.Size(204, 45);
-            this.clientWeight.TabIndex = 1;
-            this.clientWeight.Text = "Weight (lbs):";
-            // 
-            // weightBox
-            // 
-            this.weightBox.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.weightBox.Location = new System.Drawing.Point(12, 90);
-            this.weightBox.Margin = new System.Windows.Forms.Padding(2);
-            this.weightBox.Name = "weightBox";
-            this.weightBox.Size = new System.Drawing.Size(409, 48);
-            this.weightBox.TabIndex = 0;
-            this.weightBox.Visible = false;
-            this.weightBox.TextChanged += new System.EventHandler(this.weightBox_TextChanged);
-            // 
-            // clientGender
-            // 
-            this.clientGender.AutoSize = true;
-            this.clientGender.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clientGender.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.clientGender.Location = new System.Drawing.Point(168, 301);
-            this.clientGender.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.clientGender.Name = "clientGender";
-            this.clientGender.Size = new System.Drawing.Size(130, 45);
-            this.clientGender.TabIndex = 3;
-            this.clientGender.Text = "Gender:";
-            this.clientGender.Click += new System.EventHandler(this.label4_Click);
-            // 
-            // nextButton
-            // 
-            this.nextButton.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.nextButton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.nextButton.BackColor = System.Drawing.SystemColors.HotTrack;
-            this.nextButton.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nextButton.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.nextButton.Location = new System.Drawing.Point(1238, 894);
-            this.nextButton.Margin = new System.Windows.Forms.Padding(2);
-            this.nextButton.Name = "nextButton";
-            this.nextButton.Size = new System.Drawing.Size(330, 54);
-            this.nextButton.TabIndex = 12;
-            this.nextButton.Text = "Done Here! Let\'s Go!";
-            this.nextButton.UseVisualStyleBackColor = false;
-            this.nextButton.Visible = false;
-            this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
-            // 
-            // save1
-            // 
-            this.save1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.save1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.save1.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.save1.Location = new System.Drawing.Point(316, 894);
-            this.save1.Margin = new System.Windows.Forms.Padding(2);
-            this.save1.Name = "save1";
-            this.save1.Size = new System.Drawing.Size(109, 54);
-            this.save1.TabIndex = 13;
-            this.save1.Text = "Save";
-            this.save1.UseVisualStyleBackColor = false;
-            this.save1.Click += new System.EventHandler(this.save1_Click);
-            // 
-            // save2
-            // 
-            this.save2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.save2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.save2.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.save2.Location = new System.Drawing.Point(1131, 892);
-            this.save2.Margin = new System.Windows.Forms.Padding(2);
-            this.save2.Name = "save2";
-            this.save2.Size = new System.Drawing.Size(102, 58);
-            this.save2.TabIndex = 14;
-            this.save2.Text = "Save";
-            this.save2.UseVisualStyleBackColor = false;
-            this.save2.Visible = false;
-            this.save2.Click += new System.EventHandler(this.save2_Click);
+            this.button4.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(53, 52);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(238, 49);
+            this.button4.TabIndex = 21;
+            this.button4.Text = "Check Your Balance";
+            this.button4.UseVisualStyleBackColor = true;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox2.Image = global::Human_FitnessProject.Properties.Resources.color_logo___with_background;
-            this.pictureBox2.Location = new System.Drawing.Point(365, 712);
+            this.pictureBox2.Location = new System.Drawing.Point(1174, 1358);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(852, 250);
+            this.pictureBox2.Size = new System.Drawing.Size(2748, 800);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
@@ -406,10 +183,10 @@ namespace Human_FitnessProject
             // 
             this.logo3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.logo3.Image = ((System.Drawing.Image)(resources.GetObject("logo3.Image")));
-            this.logo3.Location = new System.Drawing.Point(1318, 14);
+            this.logo3.Location = new System.Drawing.Point(4236, 44);
             this.logo3.Margin = new System.Windows.Forms.Padding(2);
             this.logo3.Name = "logo3";
-            this.logo3.Size = new System.Drawing.Size(250, 250);
+            this.logo3.Size = new System.Drawing.Size(200, 200);
             this.logo3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logo3.TabIndex = 3;
             this.logo3.TabStop = false;
@@ -417,47 +194,189 @@ namespace Human_FitnessProject
             // logo2
             // 
             this.logo2.Image = global::Human_FitnessProject.Properties.Resources.Color_logo_with_background;
-            this.logo2.Location = new System.Drawing.Point(10, 10);
+            this.logo2.Location = new System.Drawing.Point(8, 8);
             this.logo2.Margin = new System.Windows.Forms.Padding(2);
             this.logo2.Name = "logo2";
-            this.logo2.Size = new System.Drawing.Size(250, 250);
+            this.logo2.Size = new System.Drawing.Size(200, 200);
             this.logo2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.logo2.TabIndex = 2;
             this.logo2.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.Image = global::Human_FitnessProject.Properties.Resources.beach_workout;
-            this.pictureBox1.Location = new System.Drawing.Point(441, 14);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(697, 742);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
             // toolTip1
             // 
             this.toolTip1.ToolTipTitle = "Genderbutton";
-            this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup);
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(42, 13);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(238, 49);
+            this.button3.TabIndex = 21;
+            this.button3.Text = "Genesis Block";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(42, 86);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(238, 49);
+            this.button1.TabIndex = 20;
+            this.button1.Text = "Create New Block";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // initinfoPanel
+            // 
+            this.initinfoPanel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.initinfoPanel.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.initinfoPanel.Controls.Add(this.button2);
+            this.initinfoPanel.Controls.Add(this.button3);
+            this.initinfoPanel.Controls.Add(this.button1);
+            this.initinfoPanel.Location = new System.Drawing.Point(8, 300);
+            this.initinfoPanel.Margin = new System.Windows.Forms.Padding(2);
+            this.initinfoPanel.Name = "initinfoPanel";
+            this.initinfoPanel.Size = new System.Drawing.Size(351, 219);
+            this.initinfoPanel.TabIndex = 9;
+            this.initinfoPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.initinfoPanel_Paint);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(42, 157);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(238, 49);
+            this.button2.TabIndex = 22;
+            this.button2.Text = "Latest Block";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Human_FitnessProject.Properties.Resources.beach_workout;
+            this.pictureBox1.Location = new System.Drawing.Point(401, 27);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(461, 428);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Human_FitnessProject.Properties.Resources.Color_logo_with_background;
+            this.pictureBox3.Location = new System.Drawing.Point(1055, 8);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(200, 200);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 11;
+            this.pictureBox3.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.panel1.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panel1.Controls.Add(this.button7);
+            this.panel1.Controls.Add(this.button8);
+            this.panel1.Controls.Add(this.button9);
+            this.panel1.Location = new System.Drawing.Point(1951, 490);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(351, 278);
+            this.panel1.TabIndex = 12;
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(42, 186);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(238, 49);
+            this.button7.TabIndex = 22;
+            this.button7.Text = "View Last Block";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(42, 104);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(238, 49);
+            this.button8.TabIndex = 21;
+            this.button8.Text = "View Genesis Block";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Location = new System.Drawing.Point(42, 24);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(238, 49);
+            this.button9.TabIndex = 20;
+            this.button9.Text = "Create Block";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // panel2
+            // 
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.panel2.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.panel2.Controls.Add(this.button12);
+            this.panel2.Controls.Add(this.button10);
+            this.panel2.Controls.Add(this.button11);
+            this.panel2.Location = new System.Drawing.Point(904, 300);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(351, 219);
+            this.panel2.TabIndex = 13;
+            // 
+            // button12
+            // 
+            this.button12.Font = new System.Drawing.Font("Monotype Corsiva", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Location = new System.Drawing.Point(42, 13);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(238, 49);
+            this.button12.TabIndex = 23;
+            this.button12.Text = "Push if you Exercised today!";
+            this.button12.UseVisualStyleBackColor = true;
+            this.button12.Click += new System.EventHandler(this.button12_Click);
+            // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Location = new System.Drawing.Point(42, 157);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(238, 49);
+            this.button10.TabIndex = 22;
+            this.button10.Text = "Exit Program";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Monotype Corsiva", 21.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Location = new System.Drawing.Point(42, 86);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(238, 49);
+            this.button11.TabIndex = 21;
+            this.button11.Text = "All Blocks";
+            this.button11.UseVisualStyleBackColor = true;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // intake
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1582, 953);
-            this.Controls.Add(this.save2);
-            this.Controls.Add(this.save1);
-            this.Controls.Add(this.nextButton);
+            this.ClientSize = new System.Drawing.Size(1266, 530);
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.attribPanel);
             this.Controls.Add(this.initinfoPanel);
-            this.Controls.Add(this.boom);
             this.Controls.Add(this.initialinfo2);
             this.Controls.Add(this.physicalInfo);
             this.Controls.Add(this.initialInfo);
@@ -465,7 +384,6 @@ namespace Human_FitnessProject
             this.Controls.Add(this.logo3);
             this.Controls.Add(this.logo2);
             this.Controls.Add(this.backbutton);
-            this.Controls.Add(this.pictureBox1);
             this.Font = new System.Drawing.Font("Monotype Corsiva", 7.875F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.HotTrack;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -474,22 +392,21 @@ namespace Human_FitnessProject
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "WE ARE SO GLAD YOU MADE IT HERE!";
             this.Load += new System.EventHandler(this.intake_Load);
-            this.initinfoPanel.ResumeLayout(false);
-            this.initinfoPanel.PerformLayout();
             this.attribPanel.ResumeLayout(false);
-            this.attribPanel.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.logo2)).EndInit();
+            this.initinfoPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button backbutton;
         private System.Windows.Forms.PictureBox logo2;
         private System.Windows.Forms.PictureBox logo3;
@@ -497,26 +414,24 @@ namespace Human_FitnessProject
         private System.Windows.Forms.Label initialInfo;
         private System.Windows.Forms.Label physicalInfo;
         private System.Windows.Forms.Label initialinfo2;
-        private System.Windows.Forms.Label boom;
-        private System.Windows.Forms.Panel initinfoPanel;
         private System.Windows.Forms.Panel attribPanel;
-        private System.Windows.Forms.TextBox nameBox;
-        private System.Windows.Forms.Label clientGender;
-        private System.Windows.Forms.Label clientDOB;
-        private System.Windows.Forms.Label clientName;
-        private System.Windows.Forms.TextBox genderBox;
-        private System.Windows.Forms.Label clientHeight;
-        private System.Windows.Forms.Label clientWeight;
-        private System.Windows.Forms.TextBox weightBox;
-        private System.Windows.Forms.TextBox heightBox;
-        private System.Windows.Forms.Button nextButton;
-        private System.Windows.Forms.Button save1;
-        private System.Windows.Forms.Button save2;
-        private System.Windows.Forms.DateTimePicker dateOfBirthPicker;
         private System.Windows.Forms.ToolTip toolTip1;
-        private System.Windows.Forms.Label clientEmail;
-        private System.Windows.Forms.TextBox phoneNumberBox;
-        private System.Windows.Forms.TextBox emailBox;
-        private System.Windows.Forms.Label clientPhoneNumber;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel initinfoPanel;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
     }
 }

@@ -1,15 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Human_FitnessProject
-{   
+{
 
 
     public partial class welcomePage : Form
@@ -23,10 +16,7 @@ namespace Human_FitnessProject
         {
 
         }
-        private void Form1_Shown(object sender, EventArgs e)
-        {
-            noButton.Checked = false;            
-        }
+        
         private void yesButton1_CheckedChanged(object sender, EventArgs e)
         {
             
@@ -38,14 +28,25 @@ namespace Human_FitnessProject
             }
         }
 
-        private void noButton_CheckedChanged(object sender, EventArgs e)
-        {            
-            if (noButton.Checked)
-            {
-                MessageBox.Show("We are very sorry to see you go... but it's not too late to transform your life. Exit this message and push the other button to start YOUR journey!");
-                // reengage client
-                noButton.Checked = false;
-            }
+        
+        private void welcomeLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void startLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void sameShirt_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void difMan_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

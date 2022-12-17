@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Human FitnessProject", "Human FitnessProject\Human FitnessProject.csproj", "{4ACECFB6-3477-4370-B4BB-1187645699BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HFP Blockchain", "Human FitnessProject\HFP Blockchain.csproj", "{4ACECFB6-3477-4370-B4BB-1187645699BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
